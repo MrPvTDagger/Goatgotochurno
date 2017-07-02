@@ -1,0 +1,1 @@
+player addItemToUniform "ACE_EarPlugs";
