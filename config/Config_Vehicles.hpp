@@ -59,7 +59,7 @@ class CarShops {
 			{ "B_MBT_01_TUSK_F", "" },
 			{ "B_MBT_01_cannon_F", "" },
 			{ "I_MBT_03_cannon_F", "" },
-			{ "O_MBT_02_cannon_F", "" }, // START OF RHS GROUND VEHICLES
+			{ "O_MBT_02_cannon_F", "" },
 			{ "rhs_cdf_b_t72bb_tv", "" },
 			{ " rhsgref_cdf_b_t80bv_tv", "" },
 			{ "rhsusf_m1a1aimd_usarmy", "" },
