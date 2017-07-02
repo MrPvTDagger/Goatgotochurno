@@ -59,7 +59,6 @@ class CarShops {
 			{ "B_MBT_01_TUSK_F", "" },
 			{ "B_MBT_01_cannon_F", "" },
 			{ "I_MBT_03_cannon_F", "" },
-			{ "O_MBT_02_cannon_F", "" },
 			{ "rhs_cdf_b_t72bb_tv", "" },
 			{ " rhsgref_cdf_b_t80bv_tv", "" },
 			{ "rhsusf_m1a1aimd_usarmy", "" },
@@ -72,7 +71,6 @@ class CarShops {
 			{ "rhsusf_m1025_w_s", "" },
 			{ "rhsusf_m1025_d_s", "" },
 			{ "rhsusf_m1025_d_s_mk19", "" },
-			{ "rhsusf_m1025_d_s_m2", "" },
 			{ "rhsgref_cdf_b_reg_BM2", "" },
 			{ "rhsusf_m977a4_repair_bkit_m2_usarmy_d", "" },
 			{ "rhsusf_m977a4_ammo_bkit_m2_usarmy_d", "" },
@@ -457,13 +455,6 @@ class LifeCfgVehicles {
         textures[] = {};
         
     };
-		class O_MBT_02_cannon_F /* T100 BLACK EAGLE */{
-        vItemSpace = 100;
-        conditions = "";
-        price = 4350000;
-        textures[] = {};
-        
-    };
 		class I_Heli_Transport_02_F /* AW101 MERLIN */{
         vItemSpace = 100;
         conditions = "";
@@ -818,13 +809,6 @@ class LifeCfgVehicles {
         vItemSpace = 100;
         conditions = "";
         price = 255000;
-        textures[] = {};
-        
-    };
-		class rhsusf_m1025_d_s_m /* HUMVEE M2 SNORKEL 2 */{
-        vItemSpace = 100;
-        conditions = "";
-        price = 250000;
         textures[] = {};
         
     };
