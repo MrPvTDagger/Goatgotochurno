@@ -705,6 +705,13 @@ class Clothing {
 		{ "B_Carryall_Base", "", 20, "" },
 		{ "B_OutdoorPack_Base", "", 20, "" },
 		{ "B_BergenC_Base", "", 20, "" },
+		{ "TF_rt1523g", "", 20, "" },
+		{ "TF_rt1523g_big", "", 20, "" },
+		{ "TF_rt1523g_fabric", "", 20, "" },
+		{ "TF_rt1523g_green", "", 20, "" },
+		{ "TF_rt1523g_sage", "", 20, "" },
+		{ "TF_rt1523g_big_bwmod", "", 20, "" },
+		{ "TF_rt1523g_big_bwmod_tropen", "", 20, "" },
 		{ "tf_rt1523g_black", "", 20, "" }
 		};
     };

@@ -9,7 +9,7 @@ class life_weapon_shop {
             idc = -1;
             x = 0.1;
             y = 0.2;
-            w = 0.32;
+            w = 0.8;
             h = (1 / 25);
         };
 
@@ -59,7 +59,7 @@ class life_weapon_shop {
             sizeEx = 0.035;
             x = 0.11;
             y = 0.25;
-            w = 0.3;
+            w = 0.6;
             h = 0.38;
         };
 
