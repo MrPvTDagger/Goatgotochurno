@@ -11,8 +11,6 @@ class WeaponShops {
 			{ "O_NVGoggles_hex_F", "", 5000, 2500, "" },
 			{ "O_NVGoggles_urb_F", "", 5000, 2500, "" },
 			{ "O_NVGoggles_ghex_F", "", 5000, 2500, "" },
-            { "rhsusaf_ANPVS_14", "", 3000, 1500, "" },
-            { "rhsusaf_ANPVS_15", "", 6000, 3000, "" },
             { "rhs_1PN138", "", 800, 400, "" },
 			{ "B_UavTerminal", "", 2, 1, "" },
 			{ "TF_anprc152", "", 2, 1, "" }
@@ -171,8 +169,6 @@ class WeaponShops {
 			{ "sma_gemtech_one_blk", "", 500, 250, "" },
 			{ "sma_gemtech_one_des", "", 500, 250, "" },
 			{ "sma_gemtech_one_wdl", "", 500, 250, "" },
-			{ "SMA_supplb_556", "", 500, 250, "" },
-			{ "SMA_suppltan_556", "", 500, 250, "" },
 			{ "SMA_supp2b_556", "", 500, 250, "" },
 			{ "SMA_supp2btan_556", "", 500, 250, "" },
 			{ "SMA_AAC_762_sdn6", "", 8000, 4000, "" },
@@ -421,6 +417,7 @@ class WeaponShops {
 			{ "arifle_CTAR_GL_hex_F", "", 6000, 3000, "" },
 			{ "arifle_CTAR_GL_ghex_F", "", 6000, 3000, "" },
 			{ "arifle_AKS_F", "", 2000, 1000, "" },	
+			{ "rhs_weap_ak74m", "", 2000, 1000, "" },	
 			{ "rhs_weap_ak103_zenitco01_b33", "", 7500, 3850, "" },	
 			{ "rhs_weap_ak103_2_npz", "", 7000, 3500, "" },	
 			{ "rhs_weap_ak103_gp25_npz", "", 7500, 3850, "" },	
@@ -505,6 +502,7 @@ class WeaponShops {
 			{ "rhssaf_30rnd_556x45_EPR_G36", "", 10, 5, "" },
 			{ "rhssaf_30rnd_556x45_Tracers_G36", "", 10, 5, "" },
 			{ "rhs_mag_30Rnd_556x45_Mk318_Stanag", "", 10, 5, "" },
+			{ "rhs_30Rnd_545x39_AK", "", 6, 3, "" },
 			{ "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "", 10, 5, "" },
 			{ "rhs_30Rnd_545x39_AK", "", 10, 5, "" }
         };
