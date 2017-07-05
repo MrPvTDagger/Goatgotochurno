@@ -147,7 +147,7 @@ class ace_interact_menu_alwaysUseCursorInteraction {
 class ace_interact_menu_useListMenu {
     value = 0;
     typeName = "BOOL";
-    force = 1;
+    force = 0;
 };
 class ace_interact_menu_colorTextMax {
     value[] = {1, 1, 1, 1};
