@@ -427,6 +427,9 @@ class WeaponShops {
 			{ "rhs_weap_m16a4", "", 6500, 3250, "" },	
 			{ "rhs_weap_m16a4_carryhandle", "", 6500, 3250, "" },	
 			{ "rhs_weap_m16a4_carryhandle_m203", "", 7000, 3500, "" },
+			{ "rhs_weap_ak74m_gp25", "", 7000, 3500, "" },
+			{ "rhs_weap_ak74m_npz", "", 7000, 3500, "" },
+			{ "rhs_weap_asval_grip_npz", "", 7000, 3500, "" },
 			{ "rhs_weap_ak74mr_grip1", "", 7500, 3850, "" }
 		   };
         mags[] = {
@@ -451,6 +454,8 @@ class WeaponShops {
 			{ "UGL_FlareRed_F", "", 50, 25, "" },
 			{ "UGL_FlareYellow_F", "", 50, 25, "" },
 			{ "UGL_FlareCIR_F", "", 50, 25, "" },
+			{ "rhs_VOG25P", "", 50, 25, "" },
+			{ "rhs_VOG25", "", 50, 25, "" },
 			{ "1Rnd_Smoke_Grenade_shell", "", 50, 25, "" },
 			{ "1Rnd_SmokeRed_Grenade_shell", "", 50, 25, "" },
 			{ "1Rnd_SmokeGreen_Grenade_shell", "", 50, 25, "" },
@@ -504,6 +509,7 @@ class WeaponShops {
 			{ "rhs_mag_30Rnd_556x45_Mk318_Stanag", "", 10, 5, "" },
 			{ "rhs_30Rnd_545x39_AK", "", 6, 3, "" },
 			{ "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "", 10, 5, "" },
+			{ "rhs_20rnd_9x39mm_SP5", "", 10, 5, "" },
 			{ "rhs_30Rnd_545x39_AK", "", 10, 5, "" }
         };
         accs[] = {
