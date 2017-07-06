@@ -23,8 +23,6 @@ class CfgSounds
         sound[] = {"\sounds\carUnlock.ogg", 0.25, 1};
         titles[] = {};
     };
-	class CfgSounds
-{
 	class bcg_wind
 	{
 		name = "bcg_wind";
