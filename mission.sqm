@@ -12,14 +12,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=630;
+		nextID=693;
 	};
 	class Camera
 	{
-		pos[]={4472.6079,136.78091,2304.1621};
-		dir[]={0.39416799,-0.46136659,0.79484367};
-		up[]={0.20497486,0.88720763,0.41333359};
-		aside[]={0.89588958,8.1025064e-008,-0.44427785};
+		pos[]={48.336052,238.08795,2638.6399};
+		dir[]={0.22759716,-0.47934014,0.84763366};
+		up[]={0.12430818,0.87762237,0.46295607};
+		aside[]={0.96581817,2.9720832e-007,-0.25933146};
 	};
 };
 binarizationWanted=0;
@@ -47,13 +47,11 @@ addons[]=
 	"A3_Supplies_F_Heli_Slingload",
 	"A3_Structures_F_Exp_Infrastructure_Airports",
 	"A3_Characters_F",
-	"asr_ai3_cfgcamouflage",
 	"A3_Weapons_F",
 	"task_force_radio_items",
 	"TRYK_Uniform",
 	"ace_medical",
 	"ace_hearing",
-	"asr_ai3_cfgvehicles",
 	"ace_gforces",
 	"ace_parachute",
 	"ace_explosives",
@@ -629,8 +627,10 @@ class ScenarioData
 {
 	author="Dagger";
 	overViewPicture="GOATCherno.jpg";
+	disabledAI=1;
 	class Header
 	{
+		gameType="Coop";
 		minPlayers=1;
 		maxPlayers=20;
 	};
@@ -32831,8 +32831,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7.6886501,181.73877,2774.7566};
-						angles[]={6.1362514,3.3587804,6.0781078};
+						position[]={7.6890001,181.73882,2774.7571};
+						angles[]={6.1362457,3.3587813,6.0781093};
 					};
 					side="West";
 					flags=6;
@@ -32842,6 +32842,7 @@ class Mission
 						init="call{Rock addRating 10000000000000000000000000000000000;  enableRadio false; enableSentences false;}";
 						name="Rock";
 						description="Rock";
+						isPlayer=1;
 						isPlayable=1;
 						class Inventory
 						{
