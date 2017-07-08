@@ -309,7 +309,7 @@ precisionAI=0;
 /* Adds screen when loading. */
 author = "Rock [G.O.A.T]";
 onLoadName = "G.O.A.T Tactical Unit";
-loadScreen = "images/GOATCherno.jpg";
+loadScreen = "GOATCherno.jpg";
 OnLoadMission = "We are the greatest of all time.";
 
 enableDebugConsole = 1;

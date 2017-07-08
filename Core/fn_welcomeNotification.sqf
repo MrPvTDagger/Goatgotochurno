@@ -25,7 +25,7 @@ _textSpoiler = _display displayCtrl 1101;
 _text2 = _display displayCtrl 1102;
 
 _message = "";
-_message = _message + "<t align='center' size='8' shadow='0'><img image='GOATSA.jpg' /></t><br /><br />";
+_message = _message + "<t align='center' size='8' shadow='0'><img image='GOATCherno.jpg' /></t><br /><br />";
 _message = _message + "TeamSpeak 3 address:ts.goat-tactical.com<br /><br />";
 _message = _message + "Discord invite: <a href='https://discord.gg/jHZyX39' color='#56BDD6'>G.O.A.T</a>  <br /><br />";
 
