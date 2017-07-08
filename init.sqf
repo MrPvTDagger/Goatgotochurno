@@ -1,6 +1,8 @@
 execVM "R3F_LOG\init.sqf";
 [] execVM "r0ed_SurvivableCrashes\init.sqf"
 enableSaving [ false, false ];
+// MONSOON SCRIPT
+null = [100,920,true] execvm "AL_monsoon\al_monsoon.sqf";
 
 waitUntil {time > 0};
 
