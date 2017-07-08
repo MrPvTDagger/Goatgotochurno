@@ -202,7 +202,19 @@ class CfgSounds
 		name = "tuse_6";
 		sound[] = {"\sound\tuse_6.ogg", 1, 1};
 		titles[] = {1, ""};
+	};
+	class rafala_4_dr
+	{
+		name = "rafala_4_dr";
+		sound[] = {"\sound\rafala_4_dr.ogg", db+10, 1};
+		titles[] = {1, ""};
 	};	
+	class rafala_5_st
+	{
+		name = "rafala_5_st";
+		sound[] = {"\sound\rafala_5_st.ogg", db+10, 1};
+		titles[] = {1, ""};
+	};
 };
 
 
@@ -297,7 +309,7 @@ precisionAI=0;
 /* Adds screen when loading. */
 author = "Rock [G.O.A.T]";
 onLoadName = "G.O.A.T Tactical Unit";
-loadScreen = "GOATCherno.jpg";
+loadScreen = "images/GOATCherno.jpg";
 OnLoadMission = "We are the greatest of all time.";
 
 enableDebugConsole = 1;

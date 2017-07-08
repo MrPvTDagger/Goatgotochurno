@@ -10,10 +10,10 @@
 */
 class CfgSpawnPoints {
 
-    class Sara {
+    class Chernarus {
         class Cop {
             class HQ {
-                displayName = "G.O.A.T HQ";
+                displayName = "An Island";
                 spawnMarker = "cop_spawn_1";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
