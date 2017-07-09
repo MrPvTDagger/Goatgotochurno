@@ -13,8 +13,8 @@ class CfgSpawnPoints {
     class Chernarus {
         class Cop {
             class HQ {
-                displayName = "An Island";
-                spawnMarker = "cop_spawn_1";
+                displayName = "G.O.A.T HQ";
+                spawnMarker = "GOATHQ";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
             };

@@ -95,13 +95,6 @@ R3F_LOG_CFG_CF_whitelist_medium_categories = R3F_LOG_CFG_CF_whitelist_light_cate
  */
 R3F_LOG_CFG_CF_whitelist_full_categories = R3F_LOG_CFG_CF_whitelist_medium_categories +
 [
-	"Car",                              // Cars (42 entries)
-	"Armored",                          // Armored (16 entries)
-	"Air",                              // Air (19 entries)
-	"Support",                          // Supports (21 entries)
-	"Ship",                             // Ships (13 entries)
-	"Autonomous",                       // Autonomous (15 entries)
-	"Submarine",                        // Submarines (3 entries)
 	"Wreck",                            // Wrecks (24 entries)
 	"Wreck_sub",                        // Wrecks (Submerged) (5 entries)
 	"Military",                         // Objects (Military) (9 entries)
@@ -158,6 +151,13 @@ R3F_LOG_CFG_CF_whitelist_full_categories = R3F_LOG_CFG_CF_whitelist_medium_categ
  */
 R3F_LOG_CFG_CF_blacklist_categories =
 [
+	"Car",                              // Cars (42 entries)
+	"Armored",                          // Armored (16 entries)
+	"Air",                              // Air (19 entries)
+	"Support",                          // Supports (21 entries)
+	"Ship",                             // Ships (13 entries)
+	"Autonomous",                       // Autonomous (15 entries)
+	"Submarine",                        // Submarines (3 entries)
 	"Submerged",                        // Objects (Sea) (2 entries)
 	"Camera",                           // Cameras (0 entries)
 	"Sounds",                           // Sounds (9 entries)
