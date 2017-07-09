@@ -461,6 +461,7 @@ class Clothing {
         goggles[] = {
         { "NONE", $STR_C_Remove_goggles, 0, "" },
 		{ "G_Balaclava_blk", "", 20, "" },
+		{ "G_Aviator", "", 20, "" },
 		{ "G_Balaclava_combat", "", 20, "" },
 		{ "G_Balaclava_lowprofile", "", 20, "" },
 		{ "G_Balaclava_oli", "", 20, "" },

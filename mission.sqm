@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=2379;
+		nextID=2387;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=567;
+		nextID=693;
 	};
 	class Camera
 	{
-		pos[]={-16.832499,211.6823,2706.5767};
-		dir[]={0.3302922,-0.59945124,0.72912848};
-		up[]={0.24736106,0.80039823,0.5460555};
-		aside[]={0.91092944,-2.4249312e-007,-0.41264731};
+		pos[]={4668.1021,29.602865,2561.0566};
+		dir[]={0.81364375,-0.52986163,0.23963888};
+		up[]={0.50833482,0.84804058,0.14971873};
+		aside[]={0.28256044,-8.6873479e-007,-0.95935458};
 	};
 };
 binarizationWanted=0;
@@ -583,7 +583,58 @@ class AddonsMetaData
 randomSeed=15966061;
 class ScenarioData
 {
-	author="NotTheReal_MrPvTDagger";
+	author="Mike & Dagger";
+	disabledAI=1;
+	class Header
+	{
+		gameType="Coop";
+		minPlayers=1;
+		maxPlayers=20;
+	};
+};
+class CustomAttributes
+{
+	class Category0
+	{
+		name="Multiplayer";
+		class Attribute0
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+					class value
+					{
+						items=1;
+						class Item0
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="None";
+							};
+						};
+					};
+				};
+			};
+		};
+		nAttributes=1;
+	};
 };
 class Mission
 {
@@ -654,7 +705,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=497;
+		items=504;
 		class Item0
 		{
 			dataType="Layer";
@@ -59900,7 +59951,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4712.0552,10.558853,2598.6899};
+				position[]={4711.7969,10.505365,2602.7014};
 				angles[]={0,1.5194836,0};
 			};
 			side="Empty";
@@ -60173,8 +60224,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4711.667,9.6349964,2590.781};
-				angles[]={0,1.4719757,0};
+				position[]={4711.126,9.6349964,2590.6499};
+				angles[]={0,1.5133096,0};
 			};
 			side="Empty";
 			flags=4;
@@ -60797,8 +60848,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4710.917,10.897573,2598.7197};
-				angles[]={0.013334315,6.2807593,0};
+				position[]={4710.6587,10.844089,2602.7312};
+				angles[]={0.013327583,6.2807593,0};
 			};
 			side="Empty";
 			flags=4;
@@ -61284,7 +61335,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4710.3638,9.4102564,2594.1589};
+				position[]={4710.6514,9.4102564,2594.7185};
 				angles[]={0,1.5353662,0};
 			};
 			side="Empty";
@@ -61325,7 +61376,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4711.5034,9.4991789,2594.25};
+				position[]={4711.791,9.4991789,2594.8096};
 				angles[]={0,1.4607707,0};
 			};
 			side="Empty";
@@ -61365,7 +61416,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4710.4639,9.9690723,2594.1641};
+				position[]={4710.7515,9.9690723,2594.7236};
 				angles[]={0,1.5432724,0};
 			};
 			side="Empty";
@@ -61405,8 +61456,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4711.6362,10.041054,2594.9031};
-				angles[]={0,1.4789047,0};
+				position[]={4712.0698,10.032335,2595.6538};
+				angles[]={0,1.5147554,0};
 			};
 			side="Empty";
 			flags=5;
@@ -95040,8 +95091,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4711.8042,10.041054,2592.8811};
-				angles[]={0,1.4789047,0};
+				position[]={4712.1821,10.041054,2593.5884};
+				angles[]={0,1.5147554,0};
 			};
 			side="Empty";
 			flags=5;
@@ -95642,7 +95693,7 @@ class Mission
 			position[]={3723.157,0,7932.6279};
 			name="cop_air_plane_3";
 			type="Empty";
-			angle=112.39792;
+			angle=112.3979;
 			id=2299;
 			atlOffset=-299.11047;
 		};
@@ -96407,7 +96458,7 @@ class Mission
 			alpha=0;
 			a=300;
 			b=300;
-			angle=3.3169992;
+			angle=3.3169987;
 			id=2351;
 			atlOffset=-5.98;
 		};
@@ -96417,14 +96468,14 @@ class Mission
 			side="West";
 			class Entities
 			{
-				items=6;
+				items=1;
 				class Item0
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4719.689,8.9722519,2588.9241};
-						angles[]={0,3.0799649,0};
+						position[]={4719.5552,8.9740343,2588.7246};
+						angles[]={0,2.9657624,0};
 					};
 					side="West";
 					flags=7;
@@ -96494,381 +96545,6 @@ class Mission
 										};
 									};
 									value=0.98000002;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4715.375,9.0014391,2588.4351};
-						angles[]={0,2.9748614,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						init="call{this allowdamage false; this addAction[""<t color='#23FF00'>Rifle Shop</t>"",life_fnc_weaponShopMenu,""rifle""];  " \n "this addAction[""<t color='#23FF00'>Secondary Shop</t>"",life_fnc_weaponShopMenu,""secondary""];  " \n "this addAction[""<t color='#23FF00'>SMG Shop</t>"",life_fnc_weaponShopMenu,""smg""]; " \n "this addAction[""<t color='#23FF00'>LMG Shop</t>"",life_fnc_weaponShopMenu,""lmg""]; this addAction[""<t color='#23FF00'>Sniper Shop</t>"",life_fnc_weaponShopMenu,""snipers""]; " \n "this addAction[""<t color='#23FF00'>Launchers Shop</t>"",life_fnc_weaponShopMenu,""launchers""];}";
-						description="Rahim's Gunstore";
-						stance="Up";
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="TRYK_shirts_BLK_PAD_RED2";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-							radio="ItemRadio";
-						};
-					};
-					id=2366;
-					type="B_Soldier_unarmed_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male06ENG";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.03;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4765.4951,8.7014389,2565.8259};
-						angles[]={0,3.6655405,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						init="call{this allowdamage false; this addAction[localize""STR_Garage_Title"",  {   if (life_HC_isActive) then {    [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};  createDialog ""Life_impound_menu"";  disableSerialization;  ctrlSetText[2802,""Fetching Vehicles....""];  life_garage_sp = ""stored2""; life_garage_type = ""Air""; },"""",0,false,false,"""",'playerSide isEqualTo west']; " \n "this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];}";
-						description="Helicopter Garage";
-						stance="Up";
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_B_HeliPilotCoveralls";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-							radio="ItemRadio";
-						};
-					};
-					id=2367;
-					type="B_Soldier_unarmed_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male05ENG";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4761.6001,8.7014389,2567.9307};
-						angles[]={0,3.6233675,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						init="call{this allowdamage false; this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; this setVariable [""realname"",""Cop Vehicle Store""]; " \n "this addAction[localize""STR_MAR_Helicopter_Shop"", life_fnc_vehicleShopMenu,[""cop_air"",west,""cop_air_1"",""cop"",""APD - Kavala District""]];}";
-						description="Helicopter Store";
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_B_PilotCoveralls";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-							radio="ItemRadio";
-						};
-					};
-					id=2368;
-					type="B_Soldier_unarmed_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male12ENG";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.04;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item4
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4710.9878,9.0014391,2594.27};
-						angles[]={0,4.6395564,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						init="call{this allowdamage false; this addAction[""<t color='#23FF00'>General Store</t>"",life_fnc_virt_menu,""cop""]; this addAction[""<t color='#23FF00'>Clothing Shop</t>"",life_fnc_clothingMenu,""cop""];}";
-						description="Slavs General & Clothing";
-						stance="Up";
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="TRYK_U_denim_jersey_blu";
-								isBackpack=0;
-								class ItemCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="FirstAidKit";
-										count=1;
-									};
-								};
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-							radio="ItemRadio";
-							goggles="G_Aviator";
-						};
-					};
-					id=2369;
-					type="B_Soldier_unarmed_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male02ENG";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.98000002;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item5
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4709.4351,8.9641161,2597.8491};
-						angles[]={0,4.5542269,0};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						init="call{unit1 allowdamage false; this addAction[localize""STR_MAR_W_E_Vehicle Shop"",life_fnc_vehicleShopMenu,[""cop_car"",west,""cop_car_1"",""cop"",""APD - Kavala District""]]; " \n "this addAction[localize""STR_Garage_Title"",  {   if (life_HC_isActive) then {    [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};  createDialog ""Life_impound_menu"";  disableSerialization;  ctrlSetText[2802,""Fetching Vehicles....""];  life_garage_sp = ""stored3""; life_garage_type = ""Car""; },"""",0,false,false,"""",'playerSide isEqualTo west']; " \n "this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];}";
-						description="Car Shop & Garage";
-						stance="Up";
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="TRYK_U_denim_hood_blk";
-								isBackpack=0;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-							radio="ItemRadio";
-							goggles="G_Aviator";
-						};
-					};
-					id=2370;
-					type="B_Soldier_unarmed_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male01ENG";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.01;
 								};
 							};
 						};
@@ -97045,6 +96721,522 @@ class Mission
 					};
 				};
 				nAttributes=8;
+			};
+		};
+		class Item497
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4711.9814,10.243782,2597.7607};
+				angles[]={0,1.5137155,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="call{this allowdamage false; this enablesimulation false; this addAction[localize""STR_NOTF_ATM"",life_fnc_atmMenu,"""",0,false,false,"""",' isNull objectParent player && player distance _target < 4 ']; this setVariable [""R3F_LOG_disabled"", true];}";
+			};
+			id=2379;
+			type="Land_ATM_01_malden_F";
+		};
+		class Item498
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4711.2754,9.0014391,2594.8296};
+						angles[]={0,4.6395564,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="call{this allowdamage false; this addAction[""<t color='#23FF00'>General Store</t>"",life_fnc_virt_menu,""cop""]; this addAction[""<t color='#23FF00'>Clothing Shop</t>"",life_fnc_clothingMenu,""cop""];}";
+						description="Slavs General & Clothing";
+						stance="Up";
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="TRYK_U_denim_jersey_blu";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							goggles="G_Aviator";
+						};
+					};
+					id=2369;
+					type="B_Soldier_unarmed_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male02ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=2380;
+		};
+		class Item499
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4715.375,9.0014391,2588.4351};
+						angles[]={0,2.9748614,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="call{this allowdamage false; this addAction[""<t color='#23FF00'>Rifle Shop</t>"",life_fnc_weaponShopMenu,""rifle""];  " \n "this addAction[""<t color='#23FF00'>Secondary Shop</t>"",life_fnc_weaponShopMenu,""secondary""];  " \n "this addAction[""<t color='#23FF00'>SMG Shop</t>"",life_fnc_weaponShopMenu,""smg""]; " \n "this addAction[""<t color='#23FF00'>LMG Shop</t>"",life_fnc_weaponShopMenu,""lmg""]; this addAction[""<t color='#23FF00'>Sniper Shop</t>"",life_fnc_weaponShopMenu,""snipers""]; " \n "this addAction[""<t color='#23FF00'>Launchers Shop</t>"",life_fnc_weaponShopMenu,""launchers""];}";
+						description="Rahim's Gunstore";
+						stance="Up";
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="TRYK_shirts_BLK_PAD_RED2";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+						};
+					};
+					id=2366;
+					type="B_Soldier_unarmed_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male06ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=2381;
+		};
+		class Item500
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4709.1768,8.9106245,2601.8611};
+						angles[]={0,4.5542269,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="call{unit1 allowdamage false; this addAction[localize""STR_MAR_W_E_Vehicle Shop"",life_fnc_vehicleShopMenu,[""cop_car"",west,""cop_car_1"",""cop"",""APD - Kavala District""]]; " \n "this addAction[localize""STR_Garage_Title"",  {   if (life_HC_isActive) then {    [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};  createDialog ""Life_impound_menu"";  disableSerialization;  ctrlSetText[2802,""Fetching Vehicles....""];  life_garage_sp = ""stored3""; life_garage_type = ""Car""; },"""",0,false,false,"""",'playerSide isEqualTo west']; " \n "this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];}";
+						description="Car Shop & Garage";
+						stance="Up";
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="TRYK_U_denim_hood_blk";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							goggles="G_Aviator";
+						};
+					};
+					id=2370;
+					type="B_Soldier_unarmed_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=2382;
+		};
+		class Item501
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4765.4951,8.7014389,2565.8259};
+						angles[]={0,3.6655405,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="call{this allowdamage false; this addAction[localize""STR_Garage_Title"",  {   if (life_HC_isActive) then {    [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};  createDialog ""Life_impound_menu"";  disableSerialization;  ctrlSetText[2802,""Fetching Vehicles....""];  life_garage_sp = ""stored2""; life_garage_type = ""Air""; },"""",0,false,false,"""",'playerSide isEqualTo west']; " \n "this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];}";
+						description="Helicopter Garage";
+						stance="Up";
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_B_HeliPilotCoveralls";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+						};
+					};
+					id=2367;
+					type="B_Soldier_unarmed_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male05ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=2383;
+		};
+		class Item502
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4761.6001,8.7014389,2567.9307};
+						angles[]={0,3.6233675,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="call{this allowdamage false; this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; this setVariable [""realname"",""Cop Vehicle Store""]; " \n "this addAction[localize""STR_MAR_Helicopter_Shop"", life_fnc_vehicleShopMenu,[""cop_air"",west,""cop_air_1"",""cop"",""APD - Kavala District""]];}";
+						description="Helicopter Store";
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_B_PilotCoveralls";
+								isBackpack=0;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+						};
+					};
+					id=2368;
+					type="B_Soldier_unarmed_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male12ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=2384;
+		};
+		class Item503
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4712.3848,10.041054,2590.906};
+				angles[]={0,1.5147538,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="call{this allowdamage false; this setVariable [""R3F_LOG_disabled"", true];}";
+			};
+			id=2386;
+			type="SignAd_Sponsor_ION_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="images\inst.paa";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="hideObject";
+					expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
 			};
 		};
 	};

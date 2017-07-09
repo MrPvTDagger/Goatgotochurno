@@ -1,3 +1,4 @@
+removeAllWeapons player;
 removeAllItems player;
 removeAllAssignedItems player;
 player addItemToUniform "ACE_EarPlugs";

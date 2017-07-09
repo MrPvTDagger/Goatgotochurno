@@ -8,6 +8,8 @@ class WeaponShops {
             { "Binocular", "", 2, 1, "" },
 			{ "Rangefinder", "", 2, 1, "" },
 			{ "Laserdesignator", "", 2, 1, "" },
+			{ "Laserbatteries", "", 2, 1, "" },
+			{ "ACE_VectorDay", "", 2, 1, "" },
 			{ "O_NVGoggles_hex_F", "", 5000, 2500, "" },
 			{ "O_NVGoggles_urb_F", "", 5000, 2500, "" },
 			{ "O_NVGoggles_ghex_F", "", 5000, 2500, "" },
@@ -23,6 +25,7 @@ class WeaponShops {
         conditions = "";
         items[] = {
             { "optic_Arco", "", 1850, 925, "" },
+            { "optic_Aco", "", 1850, 925, "" },
 			{ "SMA_ELCAN_SPECTER", "", 2000, 1000, "" },
 			{ "SMA_ELCAN_SPECTER_TAN", "", 2000, 1000, "" },
 			{ "SMA_ELCAN_SPECTER_GREEN", "", 2000, 1000, "" },
@@ -57,7 +60,7 @@ class WeaponShops {
 	        { "sma_spitfire_03_rds_low_ard_black", "", 2000, 1000, "" },
 			{ "optic_MRCO", "", 1850, 925, "" },
 			{ "optic_Holosight", "", 600, 300, "" },
-			{ "optic_Hamr", "", 2250, 1125, "" },
+			{ "optic_Hamr", "", 1500, 750, "" },
 			{ "optic_ERCO_blk_F", "", 2500, 1250, "" },
 			{ "optic_ERCO_khk_F", "", 2500, 1250, "" },
 			{ "optic_ERCO_snd_F", "", 2500, 1250, "" },
@@ -94,6 +97,7 @@ class WeaponShops {
 			{ "rhsusf_acc_ACOG_MDO", "", 1200, 600, "" },
 			{ "rhsusf_acc_ACOG_RMR", "", 1500, 750, "" },
 			{ "rhsusf_acc_ACOG_d", "", 1500, 750, "" },
+			{ "ACE_optic_Hamr_2D", "", 1500, 750, "" },
 			{ "rhsusf_acc_ACOG_wd", "", 1500, 750, "" }
         
 		};
@@ -142,6 +146,9 @@ class WeaponShops {
 			{ "sma_gemtech_one_blk", "Universal 762 BLACK", 400, 200, "" },
 			{ "SMA_supptan_762", "Universal 762 TAN", 400, 200, "" },
 			{ "SMA_AAC_762_sdn6", "AAC 7.62", 400, 200, "" },
+			{ "rhsusf_acc_harris_swivel", "M24/M40 Bipod", 200, 100, "" },
+			{ "SMA_SFPEQ_HKTOP_BLK", "M24/M40 Bipod", 200, 100, "" },
+			{ "SMA_SFPEQ_HKTOP_TAN", "M24/M40 Bipod", 200, 100, "" },
 			{ "rhs_acc_dtk3", "AK Muzzle", 400, 200, "" }
         
 		};
@@ -372,12 +379,15 @@ class WeaponShops {
 			{ "rhs_weap_ak74m_gp25", "", 7000, 3500, "" },
 			{ "rhs_weap_ak74m_npz", "", 7000, 3500, "" },
 			{ "rhs_weap_asval_grip_npz", "", 7000, 3500, "" },
+			{ "rhs_weap_ak105_npz", "", 7000, 3500, "" },
+			{ "rhs_weap_aks74n_npz", "", 7000, 3500, "" },
 			{ "rhs_weap_ak74mr_grip1", "", 7500, 3850, "" }
 		   };
         mags[] = {
             { "30Rnd_65x39_caseless_green", "", 12, 6, "" },
 			{ "30Rnd_65x39_caseless_green_mag_Tracer", "", 17, 8, "" },
             { "30Rnd_556x45_Stanag", "", 10, 5, "" }, 
+            { "rhs_30Rnd_545x39_AK", "", 10, 5, "" }, 
             { "30Rnd_556x45_Stanag_Tracer_Red", "", 15, 7, "" },
 			{ "30Rnd_556x45_Stanag_Tracer_Green", "", 15, 7, "" },
 			{ "30Rnd_556x45_Stanag", "", 10, 5, "" },
@@ -606,6 +616,8 @@ class WeaponShops {
 			{ "rhs_weap_m40a5_d", "", 6500, 3250, "" },	
 			{ "rhs_weap_m40a5_wd", "", 6500, 3250, "" },	
 			{ "rhs_weap_svdp_npz", "", 4500, 2250, "" },	
+			{ "rhs_weap_m24sws_blk", "", 4500, 2250, "" },	
+			{ "rhs_weap_m24sws", "", 4500, 2250, "" },	
 			{ "rhs_weap_svdp_wd_npz", "", 4500, 2250, "" }
 	
 		};
@@ -622,6 +634,7 @@ class WeaponShops {
 			{ "rhsusf_5Rnd_300winmag_xm2010", "", 12, 6, "" },
 			{ "rhsusf_10Rnd_762x51_m118_special_Mag", "", 15, 7, "" },
 			{ "rhsusf_10Rnd_762x51_m62_Mag", "", 15, 7, "" },
+			{ "rhsusf_5Rnd_762x51_m118_special_Mag", "", 15, 7, "" },
 			{ "rhs_10Rnd_762x54mmR_7N1", "", 15, 7, "" }
         };
         accs[] = {
