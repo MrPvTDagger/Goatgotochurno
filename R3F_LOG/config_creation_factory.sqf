@@ -75,8 +75,6 @@ R3F_LOG_CFG_CF_whitelist_light_categories =
  */
 R3F_LOG_CFG_CF_whitelist_medium_categories = R3F_LOG_CFG_CF_whitelist_light_categories +
 [
-	"Ammo",                             // Ammo (49 entries)
-	"Static",                           // Static (28 entries)
 	"Container",                        // Objects (Containers) (39 entries)
 	"Objects_Airport",                  // Objects (Airport) (20 entries)
 	
@@ -152,6 +150,8 @@ R3F_LOG_CFG_CF_whitelist_full_categories = R3F_LOG_CFG_CF_whitelist_medium_categ
 R3F_LOG_CFG_CF_blacklist_categories =
 [
 	"Car",                              // Cars (42 entries)
+	"Ammo",                             // Ammo (49 entries)
+	"Static",                           // Static (28 entries)
 	"Armored",                          // Armored (16 entries)
 	"Air",                              // Air (19 entries)
 	"Support",                          // Supports (21 entries)
