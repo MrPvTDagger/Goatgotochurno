@@ -84,7 +84,6 @@ class CarShops {
 			{ "rhsusf_M1232_MK19_usarmy_d", "" },
 			{ "rhsusf_M1232_M2_usarmy_d", "" },
 			{ "rhsusf_M1232_M2_usarmy_wd", "" },
-			{ "rhsusf_M1232_MK19_usarmy_wd", "" },
 			{ "rhsusf_M1232_usarmy_wd", "" },
 			{ "rhsusf_rg33_usmc_wd", "" },
 			{ "rhsusf_rg33_m2_usmc_wd", "" },
@@ -900,13 +899,6 @@ class LifeCfgVehicles {
         vItemSpace = 100;
         conditions = "";
         price = 650000;
-        textures[] = {};
-        
-    };
-		class rhsusf_M1232_MK19_usarmy_wd /* MRAP MK19 WOODLAND */{
-        vItemSpace = 100;
-        conditions = "";
-        price = 670000;
         textures[] = {};
         
     };
