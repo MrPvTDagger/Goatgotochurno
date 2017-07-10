@@ -426,7 +426,7 @@ class LifeCfgVehicles {
 	class B_MBT_01_cannon_F {
      vItemSpace = 100;
      conditions = "";
-     price = 4250000;
+     price = 4000000;
      textures[] = {};
 
     };
