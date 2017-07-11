@@ -7,6 +7,7 @@ class Clothing {
             { "NONE", $STR_C_Remove_uniforms, 0, "" },
 		{ "U_B_CombatUniform_mcam", "", 20, "" },
 		{ "U_B_CombatUniform_mcam_tshirt", "", 20, "" },
+		{ "U_I_G_resistanceLeader_F", "", 20, "" },
 		{ "U_B_CombatUniform_mcam_vest", "", 20, "" },
 		{ "U_B_HeliPilotCoveralls", "", 20, "" },
 		{ "U_B_CTRG_1", "", 20, "" },
