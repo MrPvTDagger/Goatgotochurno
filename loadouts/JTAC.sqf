@@ -19,5 +19,5 @@ player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "tf_microdagr";
 player linkItem "tf_anprc152";
-player linkItem "ItemGPS";
+player linkItem "B_UavTerminal";
 [] call life_fnc_saveGear;
