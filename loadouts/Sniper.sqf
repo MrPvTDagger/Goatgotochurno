@@ -31,3 +31,4 @@ player linkItem "tf_anprc152_9";
 player linkItem "ItemGPS";
 player linkItem "TRYK_G_Shades_Black_NV";
 [] call life_fnc_saveGear;
+hint format ["%1 you have loaded the Sniper Loadout",player ]

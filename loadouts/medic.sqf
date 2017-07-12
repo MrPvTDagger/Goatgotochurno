@@ -25,3 +25,4 @@ player linkItem "tf_microdagr";
 player linkItem "tf_anprc152";
 player linkItem "ItemGPS";
 [] call life_fnc_saveGear;
+hint format ["%1 you have loaded the Medic Loadout",player ]

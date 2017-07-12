@@ -33,3 +33,4 @@ player linkItem "tf_microdagr";
 player linkItem "tf_anprc152_1";
 player linkItem "B_UavTerminal";
 [] call life_fnc_saveGear;
+hint format ["%1 you have loaded the Spotter Loadout",player ]
