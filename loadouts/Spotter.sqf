@@ -1,4 +1,3 @@
-removeAllWeapons player;
 removeAllItems player;
 removeAllAssignedItems player;
 player addItemToUniform "ACE_Kestrel4500";

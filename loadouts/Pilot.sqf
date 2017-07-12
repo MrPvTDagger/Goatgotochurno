@@ -1,4 +1,3 @@
-removeAllWeapons player;
 removeAllItems player;
 removeAllAssignedItems player;
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};

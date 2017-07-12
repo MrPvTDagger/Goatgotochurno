@@ -130,8 +130,7 @@ class WeaponShops {
         conditions = "";
         items[] = {
 			{ "SMA_AAC_MPW_16_Black", "", 6000, 3000, "" },
-			{ "SMA_AAC_MPW_16_Tan", "", 6000, 3000, "" },
-			{ "SMA_ACR", "", 5000, 2500, "" },			
+			{ "SMA_AAC_MPW_16_Tan", "", 6000, 3000, "" },		
 			{ "SMA_ACRREM", "", 6000, 3000, "" },
 			{ "SMA_ACRREMGL", "", 6500, 3250, "" },
 			{ "SMA_ACRREMblk", "", 6000, 3000, "" },
@@ -140,6 +139,7 @@ class WeaponShops {
 			{ "rhs_weap_ak103_2_npz", "", 7000, 3500, "" },
 			{ "rhs_weap_ak103_gp25_npz", "", 7500, 3850, "" },
 			{ "rhs_weap_ak105_npz", "", 6500, 3250, "" },
+			{ "rhs_weap_ak105_zenitco01_b33", "", 6500, 3250, "" },
 			{ "arifle_AK12_F", "", 7000, 3500, "" },
 			{ "arifle_AK12_GL_F", "", 7500, 3750, "" },
 			{ "arifle_AKM_F", "", 2500, 1250, "" },
@@ -180,6 +180,7 @@ class WeaponShops {
 			{ "SMA_MK18BLK_GL", "", 5500, 2750, "" },			
 			{ "SMA_M4MOE_SM", "", 5000, 2500, "" },
 			{ "SMA_M4_GL", "", 5500, 2750, "" },
+            { "SMA_ACR", "", 5000, 2500, "" },			
 			{ "SMA_ACRGL", "", 5500, 2750, "" },
 			{ "SMA_ACRblk", "", 5000, 2500, "" },
 			{ "SMA_ACRGL_B", "", 5500, 2750, "" },
