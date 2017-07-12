@@ -1,5 +1,5 @@
-execVM "R3F_LOG\init.sqf";
-[] execVM "r0ed_SurvivableCrashes\init.sqf"
+execVM "R3F_LOG\init.sqf";  // Starts The Creation Factory
+[] execVM "r0ed_SurvivableCrashes\init.sqf" // Survivable Crashes
 enableSaving [ false, false ];
 
 waitUntil {time > 0};

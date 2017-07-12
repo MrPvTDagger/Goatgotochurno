@@ -56,10 +56,6 @@ class CarShops {
         side = "cop";
         conditions = "call life_coplevel >= 4";
         vehicles[] = {
-            { "B_UAV_01_F", "" },
-            { "B_UGV_01_rcws_F", "" },
-            { "B_UAV_02_CAS_F", "" },
-            { "B_T_UAV_03_dynamicLoadout_F", "" },
             { "B_Heli_Light_01_F", "" },
             { "B_Heli_Light_01_dynamicLoadout_F", "" },
             { "B_Heli_Transport_03_F", "" },
@@ -468,38 +464,6 @@ class LifeCfgVehicles {
         vItemSpace = 1;
         conditions = "";
         price = 2250000;
-        textures[] = {};
-
-		};
-		
-	class B_UAV_01_F {
-        vItemSpace = 1;
-        conditions = "";
-        price = 1000;
-        textures[] = {};
-
-		};
-		
-	class B_UGV_01_rcws_F {
-        vItemSpace = 1;
-        conditions = "";
-        price = 1250000;
-        textures[] = {};
-
-		};
-		
-	class B_UAV_02_CAS_F {
-        vItemSpace = 1;
-        conditions = "";
-        price = 2500000;
-        textures[] = {};
-
-		};
-		
-	class B_T_UAV_03_dynamicLoadout_F {
-        vItemSpace = 1;
-        conditions = "";
-        price = 1500000;
         textures[] = {};
 
 		};

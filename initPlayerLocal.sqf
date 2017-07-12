@@ -21,7 +21,7 @@ if (LIFE_SETTINGS(getNumber,"spyGlass_toggle") isEqualTo 1) then {[] execVM "Spy
 		[
 		    ["Welcome to the GOAT tatical server","align = 'right' size = '1.0' font='PuristaBold'"],
 		    ["","<br/>"],
-			["Please report anybugs via discord to Dagger or Mike","align = 'right' size = '0.7' font='PuristaBold'"]
+			["Please report any bugs via discord to Dagger or Mike","align = 'right' size = '0.7' font='PuristaBold'"]
 			["","<br/>"],
 			["Mission scripting by Dagger and Mike","align = 'right' size = '0.7' font='PuristaBold'"],
 			["","<br/>"],
