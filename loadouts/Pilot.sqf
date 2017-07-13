@@ -1,6 +1,14 @@
+player removeItem "HandGrenade";
+player removeItem "HandGrenade";
+player removeItem "ACE_M84";
+player removeItem "SmokeShell";
+player removeItem "SmokeShell";
+player removeItem "SmokeShellRed";
+player removeItem "SmokeShellGreen";
 removeAllItems player;
 removeAllAssignedItems player;
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
+player addItemToUniform "ACE_Flashlight_XL50";
 player addItemToUniform "ACE_EarPlugs";
 player addItemToUniform "ACE_MapTools";
 for "_i" from 1 to 4 do {player addItemToUniform "ACE_CableTie";};

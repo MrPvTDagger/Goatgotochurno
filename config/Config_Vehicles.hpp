@@ -56,8 +56,15 @@ class CarShops {
         side = "cop";
         conditions = "call life_coplevel >= 4";
         vehicles[] = {
+            { "B_UGV_01_rcws_F", "" },
+            { "B_UAV_02_F", "" },
+            { "B_UAV_02_CAS_F", "" },
+            { "B_T_UAV_03_dynamicLoadout_F", "" },
             { "B_Heli_Light_01_F", "" },
             { "B_Heli_Light_01_dynamicLoadout_F", "" },
+            { "RHS_MELB_AH6M_M", "" },
+            { "RHS_MELB_AH6M_L", "" },
+            { "RHS_MELB_AH6M_H", "" },
             { "B_Heli_Transport_03_F", "" },
             { "B_Heli_Transport_01_F", "" },
             { "RHS_UH60M_d", "" },
@@ -468,7 +475,35 @@ class LifeCfgVehicles {
 
 		};
 		
-	class B_Heli_Light_01_F {
+	    class B_UGV_01_rcws_F {
+        vItemSpace = 1;
+        conditions = "";
+        price = 500000;
+        textures[] = {};
+
+		};
+		class B_UAV_02_F {
+        vItemSpace = 1;
+        conditions = "";
+        price = 2500000;
+        textures[] = {};
+
+		};
+		class B_UAV_02_CAS_F {
+        vItemSpace = 1;
+        conditions = "";
+        price = 3000000;
+        textures[] = {};
+
+		};
+		class B_T_UAV_03_dynamicLoadout_F {
+        vItemSpace = 1;
+        conditions = "";
+        price = 1500000;
+        textures[] = {};
+
+		};
+			class B_Heli_Light_01_F {
         vItemSpace = 1;
         conditions = "";
         price = 250000;
@@ -480,6 +515,27 @@ class LifeCfgVehicles {
         vItemSpace = 1;
         conditions = "";
         price = 450000;
+        textures[] = {};
+
+		};
+		class RHS_MELB_AH6M_M {
+        vItemSpace = 1;
+        conditions = "";
+        price = 460000;
+        textures[] = {};
+
+		};
+		class RHS_MELB_AH6M_L {
+        vItemSpace = 1;
+        conditions = "";
+        price = 475000;
+        textures[] = {};
+
+		};
+		class RHS_MELB_AH6M_H {
+        vItemSpace = 1;
+        conditions = "";
+        price = 500000;
         textures[] = {};
 
 		};

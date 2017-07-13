@@ -1,3 +1,10 @@
+player removeItem "HandGrenade";
+player removeItem "HandGrenade";
+player removeItem "ACE_M84";
+player removeItem "SmokeShell";
+player removeItem "SmokeShell";
+player removeItem "SmokeShellRed";
+player removeItem "SmokeShellGreen";
 removeAllItems player;
 removeAllAssignedItems player;
 player addItemToUniform "ACE_Kestrel4500";
@@ -30,6 +37,6 @@ player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "tf_microdagr";
 player linkItem "tf_anprc152_1";
-player linkItem "B_UavTerminal";
+player linkItem "ItemGPS";
 [] call life_fnc_saveGear;
 hint format ["%1 you have loaded the Spotter Loadout",player ]
