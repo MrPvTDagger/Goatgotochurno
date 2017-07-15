@@ -4,7 +4,7 @@
 
     Description:
     Pass what you want to be animated.
-*/
+
 private ["_vehicle","_animate","_state"];
 _vehicle = [_this,0,objNull,[objNull]] call BIS_fnc_param;
 if (isNull _vehicle) exitWith {}; //FUCK
@@ -60,3 +60,4 @@ if (!_preset) then
         };
     };
 };
+*/
