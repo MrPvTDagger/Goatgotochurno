@@ -35,8 +35,8 @@ player addItemToBackpack "NVGoggles_OPFOR";
 player addWeapon "ACE_VectorDay";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
-player linkItem "tf_microdagr";
-player linkItem "tf_anprc152_1";
+player linkItem "ItemWatch";
+player linkItem "TFAR_anprc152_1";
 player linkItem "ItemGPS";
 [] call life_fnc_saveGear;
 hint format ["%1 you have loaded the Spotter Loadout",player ]

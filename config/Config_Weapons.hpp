@@ -15,7 +15,9 @@ class WeaponShops {
 			{ "O_NVGoggles_ghex_F", "", 5000, 2500, "" },
             { "rhs_1PN138", "", 800, 400, "" },
 			{ "B_UavTerminal", "", 2, 1, "" },
-			{ "TF_anprc152", "", 2, 1, "" }
+			{ "TFAR_microdagr", "", 2, 1, "" },
+			{ "ItemWatch", "", 2, 1, "" },
+			{ "TFAR_anprc152", "", 2, 1, "" }
         
 		};
 	};

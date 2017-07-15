@@ -31,8 +31,8 @@ player addItemToBackpack "HandGrenade";
 player addWeapon "ACE_Vector";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
-player linkItem "tf_microdagr";
-player linkItem "tf_anprc152_9";
+player linkItem "ItemWatch";
+player linkItem "TFAR_anprc152_9";
 player linkItem "ItemGPS";
 [] call life_fnc_saveGear;
 hint format ["%1 you have loaded the Sniper Loadout",player ]

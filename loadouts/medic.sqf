@@ -28,8 +28,8 @@ for "_i" from 1 to 2 do {player addItemToBackpack "ACE_tourniquet";};
 player addWeapon "Binocular";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
-player linkItem "tf_microdagr";
-player linkItem "tf_anprc152";
+player linkItem "ItemWatch";
+player linkItem "TFAR_anprc152";
 player linkItem "ItemGPS";
 [] call life_fnc_saveGear;
 hint format ["%1 you have loaded the Medic Loadout",player ]
