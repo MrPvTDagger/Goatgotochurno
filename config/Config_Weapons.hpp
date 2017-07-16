@@ -14,11 +14,36 @@ class WeaponShops {
 			{ "O_NVGoggles_urb_F", "", 5000, 2500, "" },
 			{ "O_NVGoggles_ghex_F", "", 5000, 2500, "" },
             { "rhs_1PN138", "", 800, 400, "" },
+            { "rhsusf_ANPVS_14", "", 800, 400, "" },
 			{ "B_UavTerminal", "", 2, 1, "" },
 			{ "TFAR_microdagr", "", 2, 1, "" },
 			{ "ItemWatch", "", 2, 1, "" },
 			{ "TFAR_anprc152", "", 2, 1, "" }
         
+		};
+	};   
+    	class GL {
+        name = "GL Ammo";
+        side = "cop";
+        conditions = "";
+        items[] = {
+			{ "1Rnd_HE_Grenade_shell", "Universal 40mm", 50, 50, "" },
+			{ "3Rnd_HE_Grenade_shell", "MX Series 3Rnd 40mm", 50, 50, "" },
+			{ "1Rnd_Smoke_Grenade_shell", "Universal White Smoke", 50, 50, "" },
+			{ "1Rnd_SmokeBlue_Grenade_shell", "Universal Blue Smoke", 50, 50, "" },
+			{ "1Rnd_SmokeGreen_Grenade_shell", "Universal Green Smoke", 50, 50, "" },
+			{ "1Rnd_SmokeRed_Grenade_shell", "Universal Red Smoke", 50, 50, "" },
+			{ "rhs_VOG25", "AK GP-25 HE", 50, 50, "" },
+			{ "rhs_VOG25P", "AK GP-25 Bouncing HE", 50, 50, "" },
+			{ "rhs_VG40OP_white", "AK GP-25 White Smoke", 50, 50, "" },
+			{ "rhs_VG40OP_green", "AK GP-25 Green Smoke", 50, 50, "" },
+			{ "rhs_VG40OP_red", "AK GP-25 Red Smoke", 50, 50, "" },
+			{ "rhs_mag_M441_HE", "RHS M4s M203 HE", 50, 50, "" },
+			{ "rhs_mag_m576", "RHS M4s M203 Buckshot", 50, 50, "" }
+			{ "rhs_mag_f1", "F1 Frag Grenade", 2, 1, "" }
+			{ "HandGrenade", "M67 Frag Grenade", 2, 1, "" }
+			{ "rhs_mag_m67", "M67 Frag Grenade Alternate", 2, 1, "" }
+			{ "rhsgref_mag_rkg3em", "RKG Grenade", 2, 1, "" }
 		};
 	};
 	    class optics {
@@ -146,6 +171,8 @@ class WeaponShops {
 			{ "arifle_AK12_GL_F", "", 7500, 3750, "" },
 			{ "arifle_AKM_F", "", 2500, 1250, "" },
 			{ "rhs_weap_aks74n_npz", "", 4000, 2000, "" },
+			{ "rhs_weap_ak74mr", "", 6000, 3000, "" },
+			{ "rhs_weap_ak74mr_gp25", "", 6500, 3250, "" },
 			{ "rhs_weap_ak74mr_grip1", "", 4000, 2000, "" },
 			{ "rhs_weap_ak74m_gp25", "", 5500, 2750, "" },
 			{ "rhs_weap_ak74m_npz", "", 5000, 2500, "" },
@@ -234,23 +261,6 @@ class WeaponShops {
 			{ "30Rnd_762x39_Mag_Green_F", "", 14, 14, "" },
 			{ "30Rnd_762x39_Mag_Tracer_F", "", 20, 20, "" },
 			{ "30Rnd_762x39_Mag_Tracer_Green_F", "", 20, 20, "" },
-			{ "1Rnd_HE_Grenade_shell", "", 50, 50, "" },
-			{ "rhs_mag_m576", "", 50, 50, "" },
-			{ "rhs_mag_M397_HET", "", 50, 50, "" },
-			{ "UGL_FlareWhite_F", "", 50, 50, "" },
-			{ "UGL_FlareGreen_F", "", 50, 50, "" },
-			{ "UGL_FlareRed_F", "", 50, 50, "" },
-			{ "UGL_FlareYellow_F", "", 50, 50, "" },
-			{ "UGL_FlareCIR_F", "", 50, 50, "" },
-			{ "rhs_VOG25P", "", 50, 50, "" },
-			{ "rhs_VOG25", "", 50, 50, "" },
-			{ "1Rnd_Smoke_Grenade_shell", "", 50, 50, "" },
-			{ "1Rnd_SmokeRed_Grenade_shell", "", 50, 50, "" },
-			{ "1Rnd_SmokeGreen_Grenade_shell", "", 50, 50, "" },
-			{ "1Rnd_SmokeYellow_Grenade_shell", "", 50, 50, "" },
-			{ "1Rnd_SmokePurple_Grenade_shell", "", 50, 50, "" },
-			{ "1Rnd_SmokeBlue_Grenade_shell", "", 50, 50, "" },
-			{ "1Rnd_SmokeOrange_Grenade_shell", "", 50, 50, "" },
 			{ "30Rnd_545x39_Mag_F", "", 6, 6, "" },
 			{ "30Rnd_545x39_Mag_Green_F", "", 8, 4, "" },
 			{ "30Rnd_545x39_Mag_Tracer_F", "", 6, 6, "" },
@@ -427,6 +437,7 @@ class WeaponShops {
         side = "cop";
         conditions = "";
         items[] = {	
+	        { "rhs_weap_m72a7", "", 7500, , 3750, "" },
 	        { "rhs_weap_m136", "", 7500, , 3750, "" },
 	        { "rhs_weap_m136_hedp", "", 7500, 3750, "" },
 	        { "rhs_weap_m136_hp", "", 7500, 3750, "" },
