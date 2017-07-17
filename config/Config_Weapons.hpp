@@ -39,10 +39,10 @@ class WeaponShops {
 			{ "rhs_VG40OP_green", "AK GP-25 Green Smoke", 50, 50, "" },
 			{ "rhs_VG40OP_red", "AK GP-25 Red Smoke", 50, 50, "" },
 			{ "rhs_mag_M441_HE", "RHS M4s M203 HE", 50, 50, "" },
-			{ "rhs_mag_m576", "RHS M4s M203 Buckshot", 50, 50, "" }
-			{ "rhs_mag_f1", "F1 Frag Grenade", 2, 1, "" }
-			{ "HandGrenade", "M67 Frag Grenade", 2, 1, "" }
-			{ "rhs_mag_m67", "M67 Frag Grenade Alternate", 2, 1, "" }
+			{ "rhs_mag_m576", "RHS M4s M203 Buckshot", 50, 50, "" },
+			{ "rhs_mag_f1", "F1 Frag Grenade", 2, 1, "" },
+			{ "HandGrenade", "M67 Frag Grenade", 2, 1, "" },
+			{ "rhs_mag_m67", "M67 Frag Grenade Alternate", 2, 1, "" },
 			{ "rhsgref_mag_rkg3em", "RKG Grenade", 2, 1, "" }
 		};
 	};
@@ -72,6 +72,9 @@ class WeaponShops {
             { "SMA_AIMPOINT", "", 300, 150, "" },
             { "rhsusf_acc_ACOG_RMR", "", 750, 375, "" },
             { "rhsusf_acc_ACOG_d", "", 750, 375, "" },
+            { "rhsusf_acc_ACOG", "", 750, 375, "" },
+            { "rhs_usf_acc_ACOG2", "", 750, 375, "" },
+            { "rhs_usf_acc_ACOG3", "", 750, 375, "" },
             { "sma_spitfire_03_black", "", 800, 400, "" },
             { "sma_spitfire_03_rds_black", "", 850, 425, "" }
         
@@ -134,20 +137,18 @@ class WeaponShops {
 			{ "muzzle_snds_65_TI_blk_F", "", 500, 250, "" },
 			{ "muzzle_snds_65_TI_hex_F", "", 500, 250, "" },
 			{ "muzzle_snds_65_TI_ghex_F", "", 500, 250, "" },
-			{ "SMA_FLASHHIDER1", "", 400, 200, "" },
-			{ "SMA_FLASHHIDER2", "", 400, 200, "" },
-			{ "SMA_supp1b_556", "Universal 5.56 BLACK", 400, 200, "" },
-			{ "SMA_supp2btan_556", "Universal 5.56 TAN", 400, 200, "" },
-			{ "SMA_supp2BW_556", "Universal 5.56 GREY", 400, 200, "" },
-			{ "SMA_supp2smaB_556", "M4 BLACK Suppressor", 400, 200, "" },
-			{ "SMA_supp2smaT_556", "M4 TAN Suppressor", 400, 200, "" },
-			{ "sma_gemtech_one_blk", "Universal 7.62 BLACK", 400, 200, "" },
-			{ "SMA_supptan_762", "Universal 7.62 TAN", 400, 200, "" },
+			{ "SMA_supp1b_556", "SMA 5.56 BLACK", 400, 200, "" },
+			{ "SMA_supp2btan_556", "SMA 5.56 TAN", 400, 200, "" },
+			{ "SMA_supp2BW_556", "SMA 5.56 GREY", 400, 200, "" },
+			{ "SMA_supp2smaB_556", "SMA 5.56 BLACK Suppressor", 400, 200, "" },
+			{ "SMA_supp2smaT_556", "SMA 5.56 TAN Suppressor", 400, 200, "" },
+			{ "sma_gemtech_one_blk", "SMA 7.62 BLACK Suppressor", 400, 200, "" },
+			{ "SMA_supptan_762", "SMA 7.62 TAN Suppressor", 400, 200, "" },
 			{ "SMA_SFPEQ_HKTOP_BLK", "Laser/Light Combo BLACK", 200, 100, "" },
 			{ "SMA_SFPEQ_HKTOP_TAN", "Laser/Light Combo TAN", 200, 100, "" },
-			{ "rhs_acc_dtk4short", "5.45 AK Suppressor", 200, 100, "" },
-			{ "rhs_acc_pbs1", "7.62 AK Suppressor", 200, 100, "" },
-			{ "rhs_acc_dtk3", "AK Muzzle", 400, 200, "" }
+			{ "rhs_acc_dtk4short", "RHS 5.45 AK Suppressor", 200, 100, "" },
+			{ "rhs_acc_pbs1", "RHS 7.62 AK Suppressor", 200, 100, "" },
+			{ "rhs_acc_dtk3", "RHS AK Muzzle", 400, 200, "" }
         
 		};
 	};
