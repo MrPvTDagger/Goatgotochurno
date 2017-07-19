@@ -70,11 +70,13 @@ class WeaponShops {
             { "ACE_optic_Hamr_2D", "", 550, 275, "" },
             { "SMA_BARSKA", "", 300, 150, "" },
             { "SMA_AIMPOINT", "", 300, 150, "" },
+            { "rhsusf_acc_SpecterDr", "", 300, 150, "" },
+            { "rhsusf_acc_SpecterDr_OD", "", 300, 150, "" },
+            { "rhsusf_acc_SpecterDr_D", "", 300, 150, "" },
+            { "rhsusf_acc_ACOG_MDO", "", 300, 150, "" },
             { "rhsusf_acc_ACOG_RMR", "", 750, 375, "" },
             { "rhsusf_acc_ACOG_d", "", 750, 375, "" },
             { "rhsusf_acc_ACOG", "", 750, 375, "" },
-            { "rhs_usf_acc_ACOG2", "", 750, 375, "" },
-            { "rhs_usf_acc_ACOG3", "", 750, 375, "" },
             { "sma_spitfire_03_black", "", 800, 400, "" },
             { "sma_spitfire_03_rds_black", "", 850, 425, "" }
         
@@ -229,12 +231,6 @@ class WeaponShops {
 			{ "arifle_CTAR_GL_hex_F", "", 6000, 3000, "" },
 			{ "arifle_CTAR_GL_ghex_F", "", 6000, 3000, "" },
 			{ "SMA_SAR21_F", "", 5000, 2500, "" },
-			{ "SMA_Mk17", "", 7000, 3500, "" },
-			{ "SMA_Mk17_EGLM", "", 7500, 3750, "" },
-			{ "SMA_Mk17_black", "", 7000, 3500, "" },
-			{ "SMA_MK17_EGLM_black", "", 7500, 3750, "" },
-			{ "SMA_Mk17_16", "", 7000, 3500, "" },
-			{ "SMA_Mk17_16_black", "", 7000, 3500, "" },
 			{ "SMA_Mk16QCB", "", 5000, 2500, "" },
 			{ "SMA_Mk16_blackQCB", "", 5000, 2500, "" },
 			{ "SMA_MK16", "", 5000, 2500, "" },
@@ -410,7 +406,11 @@ class WeaponShops {
 	        { "srifle_DMR_03_multicam_F", "", 7000, 3500, "" },
 	        { "srifle_DMR_03_woodland_F", "", 7000, 3500, "" },
 			{ "rhs_weap_svdp_npz", "", 4500, 2250, "" },			
-			{ "rhs_weap_svdp_wd_npz", "", 4500, 2250, "" } 
+			{ "rhs_weap_svdp_wd_npz", "", 4500, 2250, "" },
+			{ "SMA_Mk17", "", 7000, 3500, "" },
+			{ "SMA_Mk17_black", "", 7000, 3500, "" },
+			{ "SMA_Mk17_16", "", 7000, 3500, "" },
+			{ "SMA_Mk17_16_black", "", 7000, 3500, "" }			
 	
 		};
         mags[] = {
@@ -423,6 +423,7 @@ class WeaponShops {
 			{ "10Rnd_127x54_Mag", "", 18, 9, "" },
 			{ "10Rnd_93x64_DMR_05_Mag", "", 14, 4, "" },
 			{ "20Rnd_650x39_Cased_Mag_F", "", 12, 6, "" },
+			{ "SMA_30Rnd_762x35_BLK_EPR", "", 10, 10, "" },
 			{ "rhsusf_5Rnd_300winmag_xm2010", "", 12, 6, "" },
 			{ "rhsusf_10Rnd_762x51_m118_special_Mag", "", 14, 4, "" },
 			{ "rhsusf_10Rnd_762x51_m62_Mag", "", 14, 4, "" },
