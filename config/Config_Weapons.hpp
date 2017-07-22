@@ -5,6 +5,7 @@ class WeaponShops {
         side = "cop";
         conditions = "";
         items[] = {
+            { "Binocular", "", 2, 1, "" },
 			{ "Rangefinder", "", 2, 1, "" },
 			{ "Laserdesignator", "", 2, 1, "" },
 			{ "Laserbatteries", "", 2, 1, "" },

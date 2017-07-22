@@ -563,6 +563,8 @@ class Clothing {
         backpacks[] = {
         { "NONE", $STR_C_Remove_backpacks, 0, "" },
 		{ "B_UAV_01_backpack_F", "", 1000, "" },
+		{ "B_Mortar_01_support_F", "", 500, "" },
+		{ "B_Mortar_01_weapon_F", "", 500, "" },
 		{ "B_AssaultPack_khk", "", 20, "" },
 		{ "B_AssaultPack_dgtl", "", 20, "" },
 		{ "B_AssaultPack_rgr", "", 20, "" },

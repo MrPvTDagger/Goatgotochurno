@@ -259,24 +259,24 @@ class LifeCfgVehicles {
         price = 90000;
         textures[] = {
 			{ "Black", "cop", {
-                "daggers_shit\textures\M1025A2\daggers_hmmvee_v2.paa"
-				"daggers_shit\textures\Untitled.paa"
-				"daggers_shit\textures\Untitled.paa"
-				""
-				""
-				""
-				"daggers_shit\textures\M1025A2\daggers_hmmvee_camo_v1.paa"
+                "daggers_shit\textures\M1025A2\daggers_hmmvee_v2.paa",
+				"daggers_shit\textures\Untitled.paa",
+				"daggers_shit\textures\Untitled.paa",
+				"",
+				"",
+				"",
+				"daggers_shit\textures\M1025A2\daggers_hmmvee_2_logo_on_back_v3.paa",
 				"daggers_shit\textures\Untitled.paa"
             }, "" },
 			
 			{ "Camo", "cop", {
-                "daggers_shit\textures\M1025A2\daggers_hmmvee_camo_extv1.paa"
-				"daggers_shit\textures\Untitled.paa"
-				"daggers_shit\textures\Untitled.paa"
-				""
-				""
-				""
-				"daggers_shit\textures\M1025A2\daggers_hmmvee_2_logo_on_back_v3.paa"
+                "daggers_shit\textures\M1025A2\daggers_hmmvee_camo_extv1.paa",
+				"daggers_shit\textures\Untitled.paa",
+				"daggers_shit\textures\Untitled.paa",
+				"",
+				"",
+				"",
+				"daggers_shit\textures\M1025A2\daggers_hmmvee_camo_extv1.paa",
 				"daggers_shit\textures\Untitled.paa"
             }, "" }
 		};
@@ -287,27 +287,26 @@ class LifeCfgVehicles {
         conditions = "";
         price = 110000;
         textures[] = {
-			{ "Black", "cop", {
-                "daggers_shit\textures\M1025A2\daggers_hmmvee_v2.paa"
-				"daggers_shit\textures\Untitled.paa"
-				"daggers_shit\textures\Untitled.paa"
-				""
-				""
-				""
-				"daggers_shit\textures\M1025A2\daggers_hmmvee_camo_v1.paa"
+                "daggers_shit\textures\M1025A2\daggers_hmmvee_v2.paa",
+				"daggers_shit\textures\Untitled.paa",
+				"daggers_shit\textures\Untitled.paa",
+				"",
+				"",
+				"",
+				"daggers_shit\textures\M1025A2\daggers_hmmvee_2_logo_on_back_v3.paa",
 				"daggers_shit\textures\Untitled.paa"
             }, "" },
 			
 			{ "Camo", "cop", {
-                "daggers_shit\textures\M1025A2\daggers_hmmvee_camo_extv1.paa"
+                "daggers_shit\textures\M1025A2\daggers_hmmvee_camo_extv1.paa",
+				"daggers_shit\textures\Untitled.paa",
+				"daggers_shit\textures\Untitled.paa",
+				"",
+				"",
+				"",
+				"daggers_shit\textures\M1025A2\daggers_hmmvee_camo_extv1.paa",
 				"daggers_shit\textures\Untitled.paa"
-				"daggers_shit\textures\Untitled.paa"
-				""
-				""
-				""
-				"daggers_shit\textures\M1025A2\daggers_hmmvee_2_logo_on_back_v3.paa"
-				"daggers_shit\textures\Untitled.paa"
-            }, "" }
+            }, "" },
 			
 			
 			
@@ -321,24 +320,24 @@ class LifeCfgVehicles {
         price = 125000;
         textures[] = {
 			{ "Black", "cop", {
-                "daggers_shit\textures\M1025A2\daggers_hmmvee_v2.paa"
-				"daggers_shit\textures\Untitled.paa"
-				"daggers_shit\textures\Untitled.paa"
-				""
-				""
-				""
-				"daggers_shit\textures\M1025A2\daggers_hmmvee_camo_v1.paa"
+                "daggers_shit\textures\M1025A2\daggers_hmmvee_v2.paa",
+				"daggers_shit\textures\Untitled.paa",
+				"daggers_shit\textures\Untitled.paa",
+				"",
+				"",
+				"",
+				"daggers_shit\textures\M1025A2\daggers_hmmvee_2_logo_on_back_v3.paa",
 				"daggers_shit\textures\Untitled.paa"
             }, "" },
 			
 			{ "Camo", "cop", {
-                "daggers_shit\textures\M1025A2\daggers_hmmvee_camo_extv1.paa"
-				"daggers_shit\textures\Untitled.paa"
-				"daggers_shit\textures\Untitled.paa"
-				""
-				""
-				""
-				"daggers_shit\textures\M1025A2\daggers_hmmvee_2_logo_on_back_v3.paa"
+                "daggers_shit\textures\M1025A2\daggers_hmmvee_camo_extv1.paa",
+				"daggers_shit\textures\Untitled.paa",
+				"daggers_shit\textures\Untitled.paa",
+				"",
+				"",
+				"",
+				"daggers_shit\textures\M1025A2\daggers_hmmvee_camo_extv1.paa",
 				"daggers_shit\textures\Untitled.paa"
             }, "" }
 			
