@@ -5,7 +5,6 @@ class WeaponShops {
         side = "cop";
         conditions = "";
         items[] = {
-            { "Binocular", "", 2, 1, "" },
 			{ "Rangefinder", "", 2, 1, "" },
 			{ "Laserdesignator", "", 2, 1, "" },
 			{ "Laserbatteries", "", 2, 1, "" },
@@ -14,11 +13,36 @@ class WeaponShops {
 			{ "O_NVGoggles_urb_F", "", 5000, 2500, "" },
 			{ "O_NVGoggles_ghex_F", "", 5000, 2500, "" },
             { "rhs_1PN138", "", 800, 400, "" },
+            { "rhsusf_ANPVS_14", "", 800, 400, "" },
 			{ "B_UavTerminal", "", 2, 1, "" },
 			{ "TFAR_microdagr", "", 2, 1, "" },
 			{ "ItemWatch", "", 2, 1, "" },
 			{ "TFAR_anprc152", "", 2, 1, "" }
         
+		};
+	};   
+    	class GL {
+        name = "GL Ammo";
+        side = "cop";
+        conditions = "";
+        items[] = {
+			{ "1Rnd_HE_Grenade_shell", "Universal 40mm", 50, 50, "" },
+			{ "3Rnd_HE_Grenade_shell", "MX Series 3Rnd 40mm", 50, 50, "" },
+			{ "1Rnd_Smoke_Grenade_shell", "Universal White Smoke", 50, 50, "" },
+			{ "1Rnd_SmokeBlue_Grenade_shell", "Universal Blue Smoke", 50, 50, "" },
+			{ "1Rnd_SmokeGreen_Grenade_shell", "Universal Green Smoke", 50, 50, "" },
+			{ "1Rnd_SmokeRed_Grenade_shell", "Universal Red Smoke", 50, 50, "" },
+			{ "rhs_VOG25", "AK GP-25 HE", 50, 50, "" },
+			{ "rhs_VOG25P", "AK GP-25 Bouncing HE", 50, 50, "" },
+			{ "rhs_VG40OP_white", "AK GP-25 White Smoke", 50, 50, "" },
+			{ "rhs_VG40OP_green", "AK GP-25 Green Smoke", 50, 50, "" },
+			{ "rhs_VG40OP_red", "AK GP-25 Red Smoke", 50, 50, "" },
+			{ "rhs_mag_M441_HE", "RHS M4s M203 HE", 50, 50, "" },
+			{ "rhs_mag_m576", "RHS M4s M203 Buckshot", 50, 50, "" },
+			{ "rhs_mag_f1", "F1 Frag Grenade", 2, 1, "" },
+			{ "HandGrenade", "M67 Frag Grenade", 2, 1, "" },
+			{ "rhs_mag_m67", "M67 Frag Grenade Alternate", 2, 1, "" },
+			{ "rhsgref_mag_rkg3em", "RKG Grenade", 2, 1, "" }
 		};
 	};
 	    class optics {
@@ -45,8 +69,13 @@ class WeaponShops {
             { "ACE_optic_Hamr_2D", "", 550, 275, "" },
             { "SMA_BARSKA", "", 300, 150, "" },
             { "SMA_AIMPOINT", "", 300, 150, "" },
+            { "rhsusf_acc_SpecterDr", "", 300, 150, "" },
+            { "rhsusf_acc_SpecterDr_OD", "", 300, 150, "" },
+            { "rhsusf_acc_SpecterDr_D", "", 300, 150, "" },
+            { "rhsusf_acc_ACOG_MDO", "", 300, 150, "" },
             { "rhsusf_acc_ACOG_RMR", "", 750, 375, "" },
             { "rhsusf_acc_ACOG_d", "", 750, 375, "" },
+            { "rhsusf_acc_ACOG", "", 750, 375, "" },
             { "sma_spitfire_03_black", "", 800, 400, "" },
             { "sma_spitfire_03_rds_black", "", 850, 425, "" }
         
@@ -109,20 +138,18 @@ class WeaponShops {
 			{ "muzzle_snds_65_TI_blk_F", "", 500, 250, "" },
 			{ "muzzle_snds_65_TI_hex_F", "", 500, 250, "" },
 			{ "muzzle_snds_65_TI_ghex_F", "", 500, 250, "" },
-			{ "SMA_FLASHHIDER1", "", 400, 200, "" },
-			{ "SMA_FLASHHIDER2", "", 400, 200, "" },
-			{ "SMA_supp1b_556", "Universal 5.56 BLACK", 400, 200, "" },
-			{ "SMA_supp2btan_556", "Universal 5.56 TAN", 400, 200, "" },
-			{ "SMA_supp2BW_556", "Universal 5.56 GREY", 400, 200, "" },
-			{ "SMA_supp2smaB_556", "M4 BLACK Suppressor", 400, 200, "" },
-			{ "SMA_supp2smaT_556", "M4 TAN Suppressor", 400, 200, "" },
-			{ "sma_gemtech_one_blk", "Universal 7.62 BLACK", 400, 200, "" },
-			{ "SMA_supptan_762", "Universal 7.62 TAN", 400, 200, "" },
+			{ "SMA_supp1b_556", "SMA 5.56 BLACK", 400, 200, "" },
+			{ "SMA_supp2btan_556", "SMA 5.56 TAN", 400, 200, "" },
+			{ "SMA_supp2BW_556", "SMA 5.56 GREY", 400, 200, "" },
+			{ "SMA_supp2smaB_556", "SMA 5.56 BLACK Suppressor", 400, 200, "" },
+			{ "SMA_supp2smaT_556", "SMA 5.56 TAN Suppressor", 400, 200, "" },
+			{ "sma_gemtech_one_blk", "SMA 7.62 BLACK Suppressor", 400, 200, "" },
+			{ "SMA_supptan_762", "SMA 7.62 TAN Suppressor", 400, 200, "" },
 			{ "SMA_SFPEQ_HKTOP_BLK", "Laser/Light Combo BLACK", 200, 100, "" },
 			{ "SMA_SFPEQ_HKTOP_TAN", "Laser/Light Combo TAN", 200, 100, "" },
-			{ "rhs_acc_dtk4short", "5.45 AK Suppressor", 200, 100, "" },
-			{ "rhs_acc_pbs1", "7.62 AK Suppressor", 200, 100, "" },
-			{ "rhs_acc_dtk3", "AK Muzzle", 400, 200, "" }
+			{ "rhs_acc_dtk4short", "RHS 5.45 AK Suppressor", 200, 100, "" },
+			{ "rhs_acc_pbs1", "RHS 7.62 AK Suppressor", 200, 100, "" },
+			{ "rhs_acc_dtk3", "RHS AK Muzzle", 400, 200, "" }
         
 		};
 	};
@@ -146,6 +173,8 @@ class WeaponShops {
 			{ "arifle_AK12_GL_F", "", 7500, 3750, "" },
 			{ "arifle_AKM_F", "", 2500, 1250, "" },
 			{ "rhs_weap_aks74n_npz", "", 4000, 2000, "" },
+			{ "rhs_weap_ak74mr", "", 6000, 3000, "" },
+			{ "rhs_weap_ak74mr_gp25", "", 6500, 3250, "" },
 			{ "rhs_weap_ak74mr_grip1", "", 4000, 2000, "" },
 			{ "rhs_weap_ak74m_gp25", "", 5500, 2750, "" },
 			{ "rhs_weap_ak74m_npz", "", 5000, 2500, "" },
@@ -201,12 +230,6 @@ class WeaponShops {
 			{ "arifle_CTAR_GL_hex_F", "", 6000, 3000, "" },
 			{ "arifle_CTAR_GL_ghex_F", "", 6000, 3000, "" },
 			{ "SMA_SAR21_F", "", 5000, 2500, "" },
-			{ "SMA_Mk17", "", 7000, 3500, "" },
-			{ "SMA_Mk17_EGLM", "", 7500, 3750, "" },
-			{ "SMA_Mk17_black", "", 7000, 3500, "" },
-			{ "SMA_MK17_EGLM_black", "", 7500, 3750, "" },
-			{ "SMA_Mk17_16", "", 7000, 3500, "" },
-			{ "SMA_Mk17_16_black", "", 7000, 3500, "" },
 			{ "SMA_Mk16QCB", "", 5000, 2500, "" },
 			{ "SMA_Mk16_blackQCB", "", 5000, 2500, "" },
 			{ "SMA_MK16", "", 5000, 2500, "" },
@@ -234,23 +257,6 @@ class WeaponShops {
 			{ "30Rnd_762x39_Mag_Green_F", "", 14, 14, "" },
 			{ "30Rnd_762x39_Mag_Tracer_F", "", 20, 20, "" },
 			{ "30Rnd_762x39_Mag_Tracer_Green_F", "", 20, 20, "" },
-			{ "1Rnd_HE_Grenade_shell", "", 50, 50, "" },
-			{ "rhs_mag_m576", "", 50, 50, "" },
-			{ "rhs_mag_M397_HET", "", 50, 50, "" },
-			{ "UGL_FlareWhite_F", "", 50, 50, "" },
-			{ "UGL_FlareGreen_F", "", 50, 50, "" },
-			{ "UGL_FlareRed_F", "", 50, 50, "" },
-			{ "UGL_FlareYellow_F", "", 50, 50, "" },
-			{ "UGL_FlareCIR_F", "", 50, 50, "" },
-			{ "rhs_VOG25P", "", 50, 50, "" },
-			{ "rhs_VOG25", "", 50, 50, "" },
-			{ "1Rnd_Smoke_Grenade_shell", "", 50, 50, "" },
-			{ "1Rnd_SmokeRed_Grenade_shell", "", 50, 50, "" },
-			{ "1Rnd_SmokeGreen_Grenade_shell", "", 50, 50, "" },
-			{ "1Rnd_SmokeYellow_Grenade_shell", "", 50, 50, "" },
-			{ "1Rnd_SmokePurple_Grenade_shell", "", 50, 50, "" },
-			{ "1Rnd_SmokeBlue_Grenade_shell", "", 50, 50, "" },
-			{ "1Rnd_SmokeOrange_Grenade_shell", "", 50, 50, "" },
 			{ "30Rnd_545x39_Mag_F", "", 6, 6, "" },
 			{ "30Rnd_545x39_Mag_Green_F", "", 8, 4, "" },
 			{ "30Rnd_545x39_Mag_Tracer_F", "", 6, 6, "" },
@@ -399,7 +405,11 @@ class WeaponShops {
 	        { "srifle_DMR_03_multicam_F", "", 7000, 3500, "" },
 	        { "srifle_DMR_03_woodland_F", "", 7000, 3500, "" },
 			{ "rhs_weap_svdp_npz", "", 4500, 2250, "" },			
-			{ "rhs_weap_svdp_wd_npz", "", 4500, 2250, "" } 
+			{ "rhs_weap_svdp_wd_npz", "", 4500, 2250, "" },
+			{ "SMA_Mk17", "", 7000, 3500, "" },
+			{ "SMA_Mk17_black", "", 7000, 3500, "" },
+			{ "SMA_Mk17_16", "", 7000, 3500, "" },
+			{ "SMA_Mk17_16_black", "", 7000, 3500, "" }			
 	
 		};
         mags[] = {
@@ -412,6 +422,7 @@ class WeaponShops {
 			{ "10Rnd_127x54_Mag", "", 18, 9, "" },
 			{ "10Rnd_93x64_DMR_05_Mag", "", 14, 4, "" },
 			{ "20Rnd_650x39_Cased_Mag_F", "", 12, 6, "" },
+			{ "SMA_30Rnd_762x35_BLK_EPR", "", 10, 10, "" },
 			{ "rhsusf_5Rnd_300winmag_xm2010", "", 12, 6, "" },
 			{ "rhsusf_10Rnd_762x51_m118_special_Mag", "", 14, 4, "" },
 			{ "rhsusf_10Rnd_762x51_m62_Mag", "", 14, 4, "" },
@@ -427,6 +438,7 @@ class WeaponShops {
         side = "cop";
         conditions = "";
         items[] = {	
+	        { "rhs_weap_m72a7", "", 7500, , 3750, "" },
 	        { "rhs_weap_m136", "", 7500, , 3750, "" },
 	        { "rhs_weap_m136_hedp", "", 7500, 3750, "" },
 	        { "rhs_weap_m136_hp", "", 7500, 3750, "" },

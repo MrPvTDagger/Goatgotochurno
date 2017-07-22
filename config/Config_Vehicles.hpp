@@ -62,6 +62,7 @@ class CarShops {
             { "B_T_UAV_03_dynamicLoadout_F", "" },
             { "B_Heli_Light_01_F", "" },
             { "B_Heli_Light_01_dynamicLoadout_F", "" },
+            { "RHS_MELB_H6M", "" },
             { "RHS_MELB_AH6M_M", "" },
             { "RHS_MELB_AH6M_L", "" },
             { "RHS_MELB_AH6M_H", "" },
@@ -86,6 +87,7 @@ class CarShops {
             { "B_T_VTOL_01_armed_F", "" },
             { "B_Plane_CAS_01_dynamicLoadout_F", "" },
             { "I_Plane_Fighter_03_CAS_F", "" },
+            { "RHS_AN2", "" },
             { "O_Plane_CAS_02_dynamicLoadout_F", "" }
         };
     };
@@ -255,15 +257,61 @@ class LifeCfgVehicles {
         vItemSpace = 1;
         conditions = "";
         price = 90000;
-        textures[] = {};
-
+        textures[] = {
+			{ "Black", "cop", {
+                "daggers_shit\textures\M1025A2\daggers_hmmvee_v2.paa"
+				"daggers_shit\textures\Untitled.paa"
+				"daggers_shit\textures\Untitled.paa"
+				""
+				""
+				""
+				"daggers_shit\textures\M1025A2\daggers_hmmvee_camo_v1.paa"
+				"daggers_shit\textures\Untitled.paa"
+            }, "" },
+			
+			{ "Camo", "cop", {
+                "daggers_shit\textures\M1025A2\daggers_hmmvee_camo_extv1.paa"
+				"daggers_shit\textures\Untitled.paa"
+				"daggers_shit\textures\Untitled.paa"
+				""
+				""
+				""
+				"daggers_shit\textures\M1025A2\daggers_hmmvee_2_logo_on_back_v3.paa"
+				"daggers_shit\textures\Untitled.paa"
+            }, "" }
 		};
+	};
 		
 	class rhsusf_m1025_w_m2 {
         vItemSpace = 1;
         conditions = "";
         price = 110000;
-        textures[] = {};
+        textures[] = {
+			{ "Black", "cop", {
+                "daggers_shit\textures\M1025A2\daggers_hmmvee_v2.paa"
+				"daggers_shit\textures\Untitled.paa"
+				"daggers_shit\textures\Untitled.paa"
+				""
+				""
+				""
+				"daggers_shit\textures\M1025A2\daggers_hmmvee_camo_v1.paa"
+				"daggers_shit\textures\Untitled.paa"
+            }, "" },
+			
+			{ "Camo", "cop", {
+                "daggers_shit\textures\M1025A2\daggers_hmmvee_camo_extv1.paa"
+				"daggers_shit\textures\Untitled.paa"
+				"daggers_shit\textures\Untitled.paa"
+				""
+				""
+				""
+				"daggers_shit\textures\M1025A2\daggers_hmmvee_2_logo_on_back_v3.paa"
+				"daggers_shit\textures\Untitled.paa"
+            }, "" }
+			
+			
+			
+		};
 
 		};
 		
@@ -271,8 +319,30 @@ class LifeCfgVehicles {
         vItemSpace = 1;
         conditions = "";
         price = 125000;
-        textures[] = {};
-
+        textures[] = {
+			{ "Black", "cop", {
+                "daggers_shit\textures\M1025A2\daggers_hmmvee_v2.paa"
+				"daggers_shit\textures\Untitled.paa"
+				"daggers_shit\textures\Untitled.paa"
+				""
+				""
+				""
+				"daggers_shit\textures\M1025A2\daggers_hmmvee_camo_v1.paa"
+				"daggers_shit\textures\Untitled.paa"
+            }, "" },
+			
+			{ "Camo", "cop", {
+                "daggers_shit\textures\M1025A2\daggers_hmmvee_camo_extv1.paa"
+				"daggers_shit\textures\Untitled.paa"
+				"daggers_shit\textures\Untitled.paa"
+				""
+				""
+				""
+				"daggers_shit\textures\M1025A2\daggers_hmmvee_2_logo_on_back_v3.paa"
+				"daggers_shit\textures\Untitled.paa"
+            }, "" }
+			
+		};
 		};
 		
 	class B_Truck_01_covered_F {
@@ -517,6 +587,13 @@ class LifeCfgVehicles {
         price = 450000;
         textures[] = {};
 
+		};	
+		class RHS_MELB_H6M {
+        vItemSpace = 1;
+        conditions = "";
+        price = 50000;
+        textures[] = {};
+
 		};
 		class RHS_MELB_AH6M_M {
         vItemSpace = 1;
@@ -704,6 +781,14 @@ class LifeCfgVehicles {
         vItemSpace = 1;
         conditions = "";
         price = 5500000;
+        textures[] = {};
+
+		};
+		
+		class RHS_AN2 {
+        vItemSpace = 1;
+        conditions = "";
+        price = 60000;
         textures[] = {};
 
 		};

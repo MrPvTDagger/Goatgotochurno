@@ -1,0 +1,3 @@
+this setObjectTexture [0, "daggers_shit\textures\M1232\daggers_mrapi_v2.paa"]; 
+this setObjectTexture [1, "daggers_shit\textures\Untitled.paa"];      
+this setObjectTexture [2, "daggers_shit\textures\Untitled.paa"];    
