@@ -259,19 +259,34 @@ class LifeCfgVehicles {
         conditions = "";
         price = 90000;
         textures[] = {};
+<<<<<<< HEAD
 	};
+=======
+
+		};
+>>>>>>> cd1b62496c5a731d95ffbcccc43ae4ba78c97294
 		
 	class rhsusf_m1025_w_m2 {
         vItemSpace = 1;
         conditions = "";
         price = 110000;
         textures[] = {};
+<<<<<<< HEAD
 	};	
+=======
+
+		};
+		
+>>>>>>> cd1b62496c5a731d95ffbcccc43ae4ba78c97294
 	class rhsusf_m1025_w_mk19 {
         vItemSpace = 1;
         conditions = "";
         price = 125000;
         textures[] = {};
+<<<<<<< HEAD
+=======
+
+>>>>>>> cd1b62496c5a731d95ffbcccc43ae4ba78c97294
 		};
 		
 	class B_Truck_01_covered_F {
