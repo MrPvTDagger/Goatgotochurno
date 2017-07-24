@@ -150,6 +150,7 @@ class WeaponShops {
 			{ "SMA_SFPEQ_HKTOP_TAN", "Laser/Light Combo TAN", 200, 100, "" },
 			{ "rhs_acc_dtk4short", "RHS 5.45 AK Suppressor", 200, 100, "" },
 			{ "rhs_acc_pbs1", "RHS 7.62 AK Suppressor", 200, 100, "" },
+			{ "rhs_acc_grip_ffg2", "AK GRIP", 200, 100, "" },
 			{ "rhs_acc_dtk3", "RHS AK Muzzle", 400, 200, "" }
         
 		};
@@ -276,6 +277,7 @@ class WeaponShops {
 			{ "SMA_20Rnd_762x51mm_M80A1_EPR", "", 10, 10, "" },
 			{ "SMA_30Rnd_762x35_BLK_EPR", "", 10, 10, "" },
 			{ "rhs_20rnd_9x39mm_SP5", "", 10, 10, "" },
+			{ "rhs_30Rnd_545x39_AK_green", "", 10, 10, "" },
 			{ "rhs_30Rnd_762x39mm", "", 10, 10, "" }
         };
         accs[] = {
@@ -337,19 +339,24 @@ class WeaponShops {
 	        { "MMG_02_sand_F", "", 12000, 6000, "" },
 			{ "rhs_weap_m240b", "", 10000, 5000, "" },	
 			{ "rhs_weap_m240b_CAP", "", 10000, 5000, "" },	
+			{ "rhs_weap_m249", "", 10000, 5000, "" },	
 			{ "rhs_weap_m249_pip_L", "", 11500, 5750, "" },	
 			{ "rhs_weap_m249_pip_S", "", 11500, 5750, "" },
 	        { "arifle_MX_SW_F", "", 9000, 4500, "" },
 	        { "arifle_MX_SW_Black_F", "", 9000, 4500, "" },			
+	        { "rhs_weap_pkm", "", 9000, 4500, "" },			
+	        { "rhs_weap_pkp", "", 9000, 4500, "" },			
 			{ "LMG_Mk200_F", "", 8500, 4250, "" },			
 		};
 	mags[] = {
             { "200Rnd_65x39_cased_Box", "", 12, 6, "" },
 			{ "200Rnd_65x39_cased_Box_Tracer", "", 14, 8, "" },
 			{ "150Rnd_762x54_Box", "", 14, 8, "" },
+			{ "rhs_200rnd_556x45_M_SAW", "", 14, 8, "" },
 			{ "150Rnd_762x54_Box_Tracer", "", 20, 10, "" },
 			{ "150Rnd_556x45_Drum_Mag_F", "", 10, 4, "" },
 			{ "100Rnd_65x39_caseless_mag", "", 12, 6, "" },
+			{ "rhs_100Rnd_762x54mmR", "", 12, 6, "" },
 			{ "100Rnd_65x39_caseless_mag_Tracer", "", 14, 8, "" },
 			{ "150Rnd_556x45_Drum_Mag_Tracer_F", "", 14, 4, "" },
 			{ "SMA_150Rnd_762_M80A1", "", 14, 4, "" },

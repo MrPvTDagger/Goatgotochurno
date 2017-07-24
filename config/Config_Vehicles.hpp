@@ -65,11 +65,12 @@ class CarShops {
             { "RHS_MELB_H6M", "" },
             { "RHS_MELB_AH6M_M", "" },
             { "RHS_MELB_AH6M_L", "" },
-            { "RHS_MELB_AH6M_H", "" },
+            { "RHS_MELB_MH6M", "" },
             { "B_Heli_Transport_03_F", "" },
             { "B_Heli_Transport_01_F", "" },
             { "RHS_UH60M_d", "" },
             { "RHS_AH64D", "" },
+            { "RHS_UH1Y_d_GS", "" },
             { "B_Heli_Attack_01_dynamicLoadout_F", "" },
             { "O_Heli_Transport_04_F", "" },
             { "O_Heli_Light_02_dynamicLoadout_F", "" },
@@ -608,10 +609,10 @@ class LifeCfgVehicles {
         textures[] = {};
 
 		};
-		class RHS_MELB_AH6M_H {
+		class RHS_MELB_MH6M {
         vItemSpace = 1;
         conditions = "";
-        price = 500000;
+        price = 120000;
         textures[] = {};
 
 		};
@@ -644,6 +645,14 @@ class LifeCfgVehicles {
         vItemSpace = 1;
         conditions = "";
         price = 2250000;
+        textures[] = {};
+
+		};
+		
+		class RHS_UH1Y_d_GS {
+        vItemSpace = 1;
+        conditions = "";
+        price = 1000000;
         textures[] = {};
 
 		};
