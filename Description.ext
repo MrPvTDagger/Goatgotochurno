@@ -1,5 +1,5 @@
 overviewText = "$STR_MISC_overviewText";    // Text to be displayed below the overviewPicture on the mission selection screen when the mission is available to play.
-disableChannels[]={{0,true,true},{1,true,true},{2,true,true},{3,true,true},{4,true,true},{5,false,true},{6,true,true},}; // Channels = 0 - Global || 1 - Side || 2 - Command || 3 - Group || 4 - Vehicle || 5 - Direct || 6 - System ||
+disableChannels[]={{0,false,false},{1,false,false},{2,false,false},{3,false,false},{4,false,false},{5,false,true},{6,false,true},}; // Channels = 0 - Global || 1 - Side || 2 - Command || 3 - Group || 4 - Vehicle || 5 - Direct || 6 - System ||
 
 class CfgFunctions
 {
