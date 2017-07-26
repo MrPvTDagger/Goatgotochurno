@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1;
+	toggles=129;
 	class ItemIDProvider
 	{
-		nextID=3332;
+		nextID=3334;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=2777;
+		nextID=2841;
 	};
 	class Camera
 	{
-		pos[]={4680.0396,47.97913,2549.717};
-		dir[]={0.099348247,-0.36664653,0.92505246};
-		up[]={0.039153386,0.93035245,0.36456397};
-		aside[]={0.99429208,8.1607141e-008,-0.10678407};
+		pos[]={13306.784,19.541435,2735.5979};
+		dir[]={0.48371503,-0.53545886,0.69232726};
+		up[]={0.30667871,0.844558,0.43894058};
+		aside[]={0.81974721,-8.7951776e-008,-0.57274121};
 	};
 };
 binarizationWanted=0;
@@ -14155,7 +14155,7 @@ class Mission
 			};
 			id=1132;
 			type="CargoNet_01_box_F";
-			atlOffset=-9.5367432e-007;
+			atlOffset=-5.8174133e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -14957,7 +14957,7 @@ class Mission
 			};
 			id=1167;
 			type="Land_CampingTable_F";
-			atlOffset=-9.5367432e-007;
+			atlOffset=-4.1007996e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -14998,7 +14998,7 @@ class Mission
 			};
 			id=1168;
 			type="FoldChair";
-			atlOffset=-9.5367432e-007;
+			atlOffset=-8.9645386e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -15038,7 +15038,7 @@ class Mission
 			};
 			id=1169;
 			type="Land_Laptop_unfolded_F";
-			atlOffset=0.81297779;
+			atlOffset=0.81296635;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -46020,7 +46020,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={4541.9092,9.5125418,2636.5229};
-			angle=4.7484465;
+			angle=4.748446;
 			class Attributes
 			{
 				sizeA=2;
@@ -46037,7 +46037,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={4544.625,9.5292997,2636.207};
-			angle=1.6155113;
+			angle=1.6155112;
 			class Attributes
 			{
 				condition="call{this}";
@@ -46056,7 +46056,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={4548.6011,9.5371485,2635.8669};
-			angle=1.6017059;
+			angle=1.6017058;
 			class Attributes
 			{
 				sizeA=2;
@@ -47751,7 +47751,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13307.955,12.379863,2748.0134};
+						position[]={13307.904,12.384943,2747.9138};
 						angles[]={0.078505196,3.6985068,0.05461248};
 					};
 					side="West";
@@ -48235,7 +48235,7 @@ class Mission
 			side="West";
 			class Entities
 			{
-				items=8;
+				items=9;
 				class Item0
 				{
 					dataType="Object";
@@ -49657,6 +49657,176 @@ class Mission
 						nAttributes=6;
 					};
 				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={13306.147,12.435175,2746.0544};
+						angles[]={0,3.6270385,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{Isaac addRating 10000000000000000000000000000000000; enableRadio false;" \n "}";
+						name="theguyrobble";
+						description="Robble ";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="TRYK_T_camo_Wood_BG";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=3;
+									class Item0
+									{
+										name="ACE_quikclot";
+										count=5;
+									};
+									class Item1
+									{
+										name="ACE_EarPlugs";
+										count=1;
+									};
+									class Item2
+									{
+										name="ACE_packingBandage";
+										count=4;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="tf_microdagr";
+							radio="tf_anprc154_1";
+							gps="ItemGPS";
+						};
+					};
+					id=3333;
+					type="B_Soldier_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isEngineer";
+							expression="if (_value != -1) then {_this setVariable ['ace_isEngineer',_value, true];}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=-1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="ACE_NoVoice";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="face";
+							expression="_this setface _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Default";
+								};
+							};
+						};
+						nAttributes=6;
+					};
+				};
 			};
 			class Attributes
 			{
@@ -49698,7 +49868,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={13299.949,12.165605,2742.3816};
+						position[]={13299.689,12.15591,2742.1423};
 						angles[]={0.049293593,3.6681504,0.08247932};
 					};
 					side="West";
@@ -52314,7 +52484,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={5526.8638,5.7915225,2072.624};
-			angle=4.4614096;
+			angle=4.4614091;
 			class Attributes
 			{
 				sizeA=2;
@@ -52348,7 +52518,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={5553.75,5.8000002,2078.6909};
-			angle=1.7979332;
+			angle=1.7979331;
 			class Attributes
 			{
 				condition="call{this}";
@@ -55305,7 +55475,7 @@ class Mission
 			};
 			id=3316;
 			type="Land_FloodLight_F";
-			atlOffset=5.1276751;
+			atlOffset=5.1276741;
 		};
 		class Item458
 		{
@@ -55321,7 +55491,7 @@ class Mission
 			};
 			id=3317;
 			type="Land_FloodLight_F";
-			atlOffset=5.1695986;
+			atlOffset=5.1660872;
 		};
 		class Item459
 		{
