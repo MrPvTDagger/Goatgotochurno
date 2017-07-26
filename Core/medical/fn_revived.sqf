@@ -27,7 +27,8 @@ if (BANK > _reviveCost) then {
 } else {
     BANK = 0;
 };
-
+player removeWeapon (primaryWeapon player);
+player removeWeapon (secondaryWeapon player);
 //Bring me back to life.
 player setDir _dir;
 player setPosASL (visiblePositionASL life_corpse);
