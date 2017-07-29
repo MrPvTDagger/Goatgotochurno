@@ -1,5 +1,0 @@
-this setObjectTexture [0, "daggers_shit\textures\M1025A2\daggers_hmmvee_v2.paa"];
-this setObjectTexture [1, "daggers_shit\textures\Untitled.paa"];
-this setObjectTexture [2, "daggers_shit\textures\Untitled.paa"];    
-this setObjectTexture [8, "daggers_shit\textures\Untitled.paa"];     
-this  setObjectTexture [7, "daggers_shit\textures\M1025A2\daggers_hmmvee_2_logo_on_back_v3.paa"];  

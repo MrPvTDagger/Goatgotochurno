@@ -57,10 +57,10 @@ class life_weapon_shop {
             idc = 38403;
             onLBSelChanged = "_this call life_fnc_weaponShopSelection";
             sizeEx = 0.035;
-            x = 0.11;
-            y = 0.25;
-            w = 0.6;
-            h = 0.38;
+            x = 0.12;
+            y = 0.31;
+            w = 0.350;
+            h = 0.340;
         };
 
         class ButtonBuySell: Life_RscButtonMenu {

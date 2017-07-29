@@ -43,7 +43,11 @@ class WeaponShops {
 			{ "rhs_mag_f1", "F1 Frag Grenade", 2, 1, "" },
 			{ "HandGrenade", "M67 Frag Grenade", 2, 1, "" },
 			{ "rhs_mag_m67", "M67 Frag Grenade Alternate", 2, 1, "" },
-			{ "rhsgref_mag_rkg3em", "RKG Grenade", 2, 1, "" }
+			{ "rhsgref_mag_rkg3em", "RKG Grenade", 2, 1, "" },
+			{ "SatchelCharge_Remote_Mag", "", 250, 125, "" },
+			{ "APERSTripMine_Wire_Mag", "", 50, 25, "" },
+			{ "SLAMDirectionalMine_Wire_Mag", "", 100, 50, "" },
+			{ "DemoCharge_Remote_Mag", "", 80, 40, "" }
 		};
 	};
 	    class optics {
@@ -146,79 +150,39 @@ class WeaponShops {
 			{ "SMA_supp2smaT_556", "SMA 5.56 TAN Suppressor", 400, 200, "" },
 			{ "sma_gemtech_one_blk", "SMA 7.62 BLACK Suppressor", 400, 200, "" },
 			{ "SMA_supptan_762", "SMA 7.62 TAN Suppressor", 400, 200, "" },
-			{ "SMA_SFPEQ_HKTOP_BLK", "Laser/Light Combo BLACK", 200, 100, "" },
-			{ "SMA_SFPEQ_HKTOP_TAN", "Laser/Light Combo TAN", 200, 100, "" },
+			{ "SMA_SFPEQ_HKTOP_BLK", "SMA Laser/Light Combo BLACK", 200, 100, "" },
+			{ "SMA_SFPEQ_HKTOP_TAN", "SMA Laser/Light Combo TAN", 200, 100, "" },
 			{ "rhs_acc_dtk4short", "RHS 5.45 AK Suppressor", 200, 100, "" },
 			{ "rhs_acc_pbs1", "RHS 7.62 AK Suppressor", 200, 100, "" },
-			{ "rhs_acc_grip_ffg2", "AK GRIP", 200, 100, "" },
+			{ "rhs_acc_grip_ffg2", "RHS AK GRIP", 200, 100, "" },
 			{ "rhs_acc_dtk3", "RHS AK Muzzle", 400, 200, "" }
         
 		};
 	};
 		class rifle {
-        name = "Rifle Shop";
+        name = "Vanilla Rifle Shop";
         side = "cop";
         conditions = "";
         items[] = {
-			{ "SMA_AAC_MPW_16_Black", "", 6000, 3000, "" },
-			{ "SMA_AAC_MPW_16_Tan", "", 6000, 3000, "" },		
-			{ "SMA_ACRREM", "", 6000, 3000, "" },
-			{ "SMA_ACRREMGL", "", 6500, 3250, "" },
-			{ "SMA_ACRREMblk", "", 6000, 3000, "" },
-			{ "SMA_ACRREMGL_B", "", 6500, 3250, "" },
-			{ "rhs_weap_ak103_zenitco01_b33", "", 7500, 3850, "" },	
-			{ "rhs_weap_ak103_2_npz", "", 7000, 3500, "" },
-			{ "rhs_weap_ak103_gp25_npz", "", 7500, 3850, "" },
-			{ "rhs_weap_ak105_npz", "", 6500, 3250, "" },
-			{ "rhs_weap_ak105_zenitco01_b33", "", 6500, 3250, "" },
+
 			{ "arifle_AK12_F", "", 7000, 3500, "" },
 			{ "arifle_AK12_GL_F", "", 7500, 3750, "" },
 			{ "arifle_AKM_F", "", 2500, 1250, "" },
-			{ "rhs_weap_aks74n_npz", "", 4000, 2000, "" },
-			{ "rhs_weap_ak74mr", "", 6000, 3000, "" },
-			{ "rhs_weap_ak74mr_gp25", "", 6500, 3250, "" },
-			{ "rhs_weap_ak74mr_grip1", "", 4000, 2000, "" },
-			{ "rhs_weap_ak74m_gp25", "", 5500, 2750, "" },
-			{ "rhs_weap_ak74m_npz", "", 5000, 2500, "" },
-			{ "rhs_weap_ak74m", "", 2000, 1000, "" },
 			{ "arifle_AKS_F", "", 2000, 1000, "" },
-			{ "rhs_weap_asval_grip_npz", "", 4000, 2000, "" },
-			{ "SMA_Steyr_AUG_F", "", 5000, 2500, "" },
-			{ "SMA_Steyr_AUG_BLACK_F", "", 5000, 2500, "" },
-			{ "SMA_AUG_A3_F", "", 5000, 2500, "" },
-			{ "SMA_AUG_EGLM", "", 5500, 2750, "" },		
 			{ "arifle_Mk20_F", "", 5000, 2500, "" },
 			{ "arifle_Mk20_plain_F", "", 5000, 2500, "" },
 			{ "arifle_Mk20_GL_F", "", 5500, 2750, "" },
 			{ "arifle_Mk20_GL_plain_F", "", 5500, 2750, "" },
-			{ "rhs_weap_g36c", "", 7000, 3500, "" },
-			{ "rhs_weap_g36kv", "", 7200, 3600, "" },
-			{ "rhs_weap_g36kv_ag36", "", 7700, 3650, "" },
 			{ "arifle_SPAR_01_blk_F", "", 5000, 2500, "" },
 			{ "arifle_SPAR_01_khk_F", "", 5000, 2500, "" },
 			{ "arifle_SPAR_01_snd_F", "", 5000, 2500, "" },
 		    { "arifle_SPAR_01_GL_blk_F", "", 5500, 2750, "" },
 		    { "arifle_SPAR_01_GL_khk_F", "", 5500, 2750, "" },
 			{ "arifle_SPAR_01_GL_snd_F", "", 5500, 2750, "" },
-			{ "SMA_HK416vfg", "", 5000, 2500, "" },
-			{ "SMA_HK416GL", "", 5500, 2750, "" },
 			{ "arifle_Katiba_F", "", 6000, 3000, "" },
 			{ "arifle_Katiba_C_F", "", 6000, 3000, "" },
 			{ "arifle_Katiba_GL_F", "", 6500, 3750, "" },	
-			{ "rhs_weap_m16a4", "", 6500, 3250, "" },
-			{ "rhs_weap_m16a4_carryhandle", "", 6500, 3250, "" },
-			{ "SMA_MK18afgTANBLK", "", 5000, 2500, "" },
-			{ "SMA_MK18TANBLK_GL", "", 5500, 2750, "" },
-			{ "SMA_MK18MOEBLK", "", 5000, 2500, "" },
-			{ "SMA_MK18BLK_GL", "", 5500, 2750, "" },			
-			{ "SMA_M4MOE_SM", "", 5000, 2500, "" },
-			{ "SMA_M4_GL", "", 5500, 2750, "" },
-            { "SMA_ACR", "", 5000, 2500, "" },			
-			{ "SMA_ACRGL", "", 5500, 2750, "" },
-			{ "SMA_ACRblk", "", 5000, 2500, "" },
-			{ "SMA_ACRGL_B", "", 5500, 2750, "" },
-			{ "SMA_STG_E4_F", "", 5000, 2500, "" },
-			{ "SMA_STG_E4_BLACK_F", "", 5000, 2500, "" },
+			{ "SMG_05_F", "", 1250, 625, "" },
 			{ "arifle_MXC_F", "", 6000, 3000, "" },
 			{ "arifle_MXC_Black_F", "", 6000, 3000, "" },
 			{ "arifle_MX_F", "", 6000, 3000, "" },
@@ -231,21 +195,15 @@ class WeaponShops {
 			{ "arifle_CTAR_GL_blk_F", "", 6000, 3000, "" },
 			{ "arifle_CTAR_GL_hex_F", "", 6000, 3000, "" },
 			{ "arifle_CTAR_GL_ghex_F", "", 6000, 3000, "" },
-			{ "SMA_SAR21_F", "", 5000, 2500, "" },
-			{ "SMA_Mk16QCB", "", 5000, 2500, "" },
-			{ "SMA_Mk16_blackQCB", "", 5000, 2500, "" },
-			{ "SMA_MK16", "", 5000, 2500, "" },
-			{ "SMA_Mk16_EGLM", "", 5500, 2750, "" },
-			{ "SMA_Mk16_black", "", 5000, 2500, "" },
-			{ "SMA_MK16_EGLM_black", "", 5500, 2750, "" },
-			{ "SMA_TavorBLK_F", "", 5000, 2500, "" },
-			{ "SMA_TavorOD_F", "", 5000, 2500, "" },
 			{ "arifle_ARX_blk_F", "", 8000, 4000, "" },
 			{ "arifle_ARX_ghex_F", "", 8000, 4000, "" },
-			{ "arifle_ARX_hex_F",  "", 8000, 4000, "" }			
+			{ "arifle_ARX_hex_F",  "", 8000, 4000, "" },		
+			{ "SMG_01_F",  "", 1250, 625, "" }			
 		   };
         mags[] = {
             { "30Rnd_65x39_caseless_green", "", 12, 6, "" },
+            { "30Rnd_9x21_Mag_SMG_02", "", 2, 1, "" },
+            { "30Rnd_45ACP_Mag_SMG_01", "", 2, 1, "" },
 			{ "30Rnd_65x39_caseless_green_mag_Tracer", "", 14, 8, "" },
             { "30Rnd_556x45_Stanag", "", 10, 4, "" },  
             { "30Rnd_556x45_Stanag_Tracer_Red", "", 14, 14, "" },
@@ -265,26 +223,128 @@ class WeaponShops {
 			{ "30Rnd_545x39_Mag_Tracer_Green_F", "", 6, 6, "" },
 			{ "10Rnd_50BW_Mag_F", "", 44, 44, "" },
 			{ "30Rnd_580x42_Mag_F", "", 10, 10, "" },
-			{ "30Rnd_580x42_Mag_Tracer_F", "", 14, 10, "" },
-			{ "rhssaf_30rnd_556x45_EPR_G36", "", 10, 10, "" },
-			{ "rhssaf_30rnd_556x45_Tracers_G36", "", 10, 10, "" },
-			{ "rhs_mag_30Rnd_556x45_Mk318_Stanag", "", 10, 10, "" },
-			{ "rhs_30Rnd_545x39_AK", "", 6, 6, "" },
-			{ "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "", 10, 10, "" },
-			{ "SMA_30Rnd_68x43_SPC_FMJ", "", 10, 10, "" },
-			{ "SMA_30Rnd_68x43_SPC_FMJ_Tracer", "", 10, 10, "" },
-			{ "SMA_30Rnd_556x45_M855A1", "", 10, 10, "" },
-			{ "SMA_20Rnd_762x51mm_M80A1_EPR", "", 10, 10, "" },
-			{ "SMA_30Rnd_762x35_BLK_EPR", "", 10, 10, "" },
-			{ "rhs_20rnd_9x39mm_SP5", "", 10, 10, "" },
-			{ "rhs_30Rnd_545x39_AK_green", "", 10, 10, "" },
-			{ "rhs_30Rnd_762x39mm", "", 10, 10, "" }
+			{ "30Rnd_580x42_Mag_Tracer_F", "", 14, 10, "" }
         };
         accs[] = {
 			
         };
         };
-	    class secondary {
+	    
+		class SMArifle {
+        name = "SMA Rifle Shop";
+        side = "cop";
+        conditions = "";
+        items[] = {
+			{ "SMA_AAC_MPW_16_Black", "", 6000, 3000, "" },
+			{ "SMA_AAC_MPW_16_Tan", "", 6000, 3000, "" },		
+			{ "SMA_ACRREM", "", 6000, 3000, "" },
+			{ "SMA_ACRREMGL", "", 6500, 3250, "" },
+			{ "SMA_ACRREMblk", "", 6000, 3000, "" },
+			{ "SMA_ACRREMGL_B", "", 6500, 3250, "" },
+			{ "SMA_Steyr_AUG_F", "", 5000, 2500, "" },
+			{ "SMA_Steyr_AUG_BLACK_F", "", 5000, 2500, "" },
+			{ "SMA_AUG_A3_F", "", 5000, 2500, "" },
+			{ "SMA_AUG_EGLM", "", 5500, 2750, "" },		
+			{ "SMA_HK416vfg", "", 5000, 2500, "" },
+			{ "SMA_HK416GL", "", 5500, 2750, "" },	
+			{ "SMA_MK18afgTANBLK", "", 5000, 2500, "" },
+			{ "SMA_MK18TANBLK_GL", "", 5500, 2750, "" },
+			{ "SMA_MK18MOEBLK", "", 5000, 2500, "" },
+			{ "SMA_MK18BLK_GL", "", 5500, 2750, "" },			
+			{ "SMA_M4MOE_SM", "", 5000, 2500, "" },
+			{ "SMA_M4_GL", "", 5500, 2750, "" },
+            { "SMA_ACR", "", 5000, 2500, "" },			
+			{ "SMA_ACRGL", "", 5500, 2750, "" },
+			{ "SMA_ACRblk", "", 5000, 2500, "" },
+			{ "SMA_ACRGL_B", "", 5500, 2750, "" },
+			{ "SMA_STG_E4_F", "", 5000, 2500, "" },
+			{ "SMA_STG_E4_BLACK_F", "", 5000, 2500, "" },
+			{ "SMA_SAR21_F", "", 5000, 2500, "" },
+			{ "SMA_Mk16QCB", "", 5000, 2500, "" },
+			{ "SMA_Mk16_blackQCB", "", 5000, 2500, "" },
+			{ "SMA_MK16", "", 5000, 2500, "" },
+			{ "SMA_Mk16_EGLM", "", 5500, 2750, "" },
+			{ "SMA_Mk16_black", "", 5000, 2500, "" },
+			{ "SMA_MK16_EGLM_black", "", 5500, 2750, "" },
+			{ "SMA_TavorBLK_F", "", 5000, 2500, "" },
+			{ "SMA_TavorOD_F", "", 5000, 2500, "" }
+		};
+        mags[] = {
+		        { "SMA_30Rnd_762x35_BLK_EPR", "", 10, 5, "" },
+		        { "SMA_30Rnd_68x43_SPC_FMJ", "", 10, 5, "" },
+		        { "SMA_30Rnd_556x45_Mk262", "", 10, 5, "" },
+		        { "SMA_30Rnd_556x45_M855A1", "", 10, 5, "" },
+		        { "SMA_30Rnd_556x45_Mk318", "", 10, 5, "" }
+				};
+        accs[] = {
+			
+        };
+        };
+		
+		class RHSrifle {
+        name = "RHS Rifle Shop";
+        side = "cop";
+        conditions = "";
+        items[] = {
+         { "rhs_weap_ak103_1", "", 5000, 2500, "" },
+         { "rhs_weap_ak103_1_npz", "", 5000, 2500, "" },
+         { "rhs_weap_ak103_2", "", 5000, 2500, "" },
+         { "rhs_weap_ak103_2_npz", "", 5000, 2500, "" },
+         { "rhs_weap_ak103_gp25_npz", "", 5000, 2500, "" },
+         { "rhs_weap_ak103_gp25", "", 5000, 2500, "" },
+         { "rhs_weap_ak103", "", 5000, 2500, "" },
+         { "rhs_weap_ak103_npz", "", 5000, 2500, "" },
+         { "rhs_weap_ak103_zenitco01", "", 5000, 2500, "" },
+         { "rhs_weap_ak103_zenitco01_b33", "", 5000, 2500, "" },
+         { "rhs_weap_ak104", "", 5000, 2500, "" },
+         { "rhs_weap_ak104_npz", "", 5000, 2500, "" },
+         { "rhs_weap_ak104_zenitco01", "", 5000, 2500, "" },
+         { "rhs_weap_ak104_zenitco01_b33", "", 5000, 2500, "" },
+         { "rhs_weap_ak105", "", 5000, 2500, "" },
+         { "rhs_weap_ak105_npz", "", 5000, 2500, "" },
+         { "rhs_weap_ak105_zenitco01", "", 5000, 2500, "" },
+         { "rhs_weap_ak105_zenitco01_b33", "", 5000, 2500, "" },
+         { "rhs_weap_ak74", "", 5000, 2500, "" },
+         { "rhs_weap_ak74_gp25", "", 5000, 2500, "" },
+         { "rhs_weap_ak74_3", "", 5000, 2500, "" },
+         { "rhs_weap_ak74_2", "", 5000, 2500, "" },
+         { "rhs_weap_ak74m", "", 5000, 2500, "" },
+         { "rhs_weap_ak74m_2mag", "", 5000, 2500, "" },
+         { "rhs_weap_ak74m_2mag_npz", "", 5000, 2500, "" },
+         { "rhs_weap_ak74m_camo", "", 5000, 2500, "" },
+         { "rhs_weap_ak74m_camo_npz", "", 5000, 2500, "" },
+         { "rhs_weap_ak74m_plummag", "", 5000, 2500, "" },
+         { "rhs_weap_ak74m_plummag_npz", "", 5000, 2500, "" },
+         { "rhs_weap_ak74m_fullplum", "", 5000, 2500, "" },
+         { "rhs_weap_ak74m_fullplum_npz", "", 5000, 2500, "" },
+         { "rhs_weap_ak74m_zenitco01", "", 5000, 2500, "" },
+         { "rhs_weap_ak74m_zenitco01_b33", "", 5000, 2500, "" },
+         { "rhs_weap_ak74mr", "", 5000, 2500, "" },
+         { "rhs_weap_ak74mr_gp25", "", 5000, 2500, "" },
+         { "rhs_weap_ak74n", "", 5000, 2500, "" },
+         { "rhs_weap_ak74n_gp25", "", 5000, 2500, "" },
+         { "rhs_weap_ak74n_gp25_npz", "", 5000, 2500, "" },
+         { "rhs_weap_ak74n_npz", "", 5000, 2500, "" },
+         { "rhs_weap_m16a4_carryhandle", "", 5000, 2500, "" },
+         { "rhs_weap_g36c", "", 5000, 2500, "" },
+         { "rhs_weap_g36kv", "", 5000, 2500, "" },
+         { "rhs_weap_g36kv_ag36", "", 5000, 2500, "" },
+         { "rhs_weap_M590_5RD", "", 5000, 2500, "" }
+		};
+        mags[] = {
+		     { "rhs_30Rnd_762x39mm", "", 10, 5, "" },   
+		     { "rhs_30Rnd_545x39_AK", "", 10, 5, "" },   
+		     { "rhs_30Rnd_545x39_AK_green", "", 10, 5, "" },  
+		     { "rhs_mag_30Rnd_556x45_Mk318_Stanag", "", 10, 5, "" },  
+		     { "rhssaf_30rnd_556x45_EPR_G36", "", 10, 5, "" },
+		     { "rhsusf_5Rnd_00Buck", "", 10, 5, "" }  
+			};
+        accs[] = {
+			
+        };
+        };
+		
+		class secondary {
         name = "Secondary Shop";
         side = "cop";
         conditions = "";
@@ -338,7 +398,6 @@ class WeaponShops {
 	        { "MMG_02_black_F", "", 12000, 6000, "" },
 	        { "MMG_02_sand_F", "", 12000, 6000, "" },
 			{ "rhs_weap_m240b", "", 10000, 5000, "" },	
-			{ "rhs_weap_m240b_CAP", "", 10000, 5000, "" },	
 			{ "rhs_weap_m249", "", 10000, 5000, "" },	
 			{ "rhs_weap_m249_pip_L", "", 11500, 5750, "" },	
 			{ "rhs_weap_m249_pip_S", "", 11500, 5750, "" },

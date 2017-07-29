@@ -9,6 +9,7 @@ class CarShops {
             { "B_Quadbike_01_F", "" },
             { "C_Offroad_01_F", "" },
             { "C_Offroad_02_unarmed_F", "" },
+            { "B_G_Offroad_01_armed_F", "" },
             { "C_Hatchback_01_sport_F", "" },
             { "C_Hatchback_01_F", "" },
             { "C_Van_01_fuel_F", "" },
@@ -154,6 +155,14 @@ class LifeCfgVehicles {
         vItemSpace = 1;
         conditions = "";
         price = 10000;
+        textures[] = {};
+
+		};
+				
+	class B_G_Offroad_01_armed_F {
+        vItemSpace = 1;
+        conditions = "";
+        price = 25000;
         textures[] = {};
 
 		};
