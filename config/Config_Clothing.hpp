@@ -301,6 +301,7 @@ class Clothing {
 		{ "H_Shemag_olive", "", 20, "" },
 		{ "rhsusf_opscore_rg_cover_pelt", "", 20, "" },
 		{ "rhsusf_opscore_bk", "", 20, "" },
+		{ "rhs_tsh4", "", 20, "" },
 		{ "H_Shemag_olive_hs", "", 20, "" },
 		{ "H_ShemagOpen_tan", "", 20, "" },
 		{ "H_ShemagOpen_khk", "", 20, "" },

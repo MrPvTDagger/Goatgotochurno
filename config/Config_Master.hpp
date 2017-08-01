@@ -18,8 +18,8 @@ class Life_Settings {
 /* Database Related Settings */
     /* Player Data Saving */
     save_virtualItems = true; //Save Virtual items (all sides)?
-    saved_virtualItems[] = { "pickaxe","fuelEmpty","fuelFull", "spikeStrip", "lockpick", "defuseKit","storageSmall","storageBig","redgull","coffee","waterBottle","apple","peach","tbacon","donuts","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat","defibrillator","toolkit" }; //Array of virtual items that can be saved on your player.
-    save_playerStats = true; //Save food, water and damage (all sides)?
+    saved_virtualItems[] = { "defibrillator" }; //Array of virtual items that can be saved on your player.
+    save_playerStats = false; //Save food, water and damage (all sides)?
     save_civilian_weapons = false; //Allow civilians to save weapons on them?
     save_civilian_position = true; //Save civilian location?
     save_civilian_position_restart = false; //Save civilian location only between restarts. After a server restart you'll have to spawn again.
@@ -110,11 +110,11 @@ class Life_Settings {
     /* Paycheck & Bank System Configurations */
     bank_cop = 8000; //Amount of cash in bank for new cops
     bank_civ = 3000; //Amount of cash in bank for new civillians
-    bank_med = 6500; //Amount of cash in bank for new medics
+    bank_med = 0; //Amount of cash in bank for new medics
 
     paycheck_cop = 1750; //Payment for cops
-    paycheck_civ = 350; //Payment for civillians
-    paycheck_med = 450; //Payment for medics
+    paycheck_civ = 0; //Payment for civillians
+    paycheck_med = 0; //Payment for medics
 
     paycheck_period = 30; //Scaled in minutes
     bank_transferTax = .01; //Tax that player pays when transferring money from ATM. Tax = Amount * multiplier

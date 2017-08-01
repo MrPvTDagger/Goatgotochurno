@@ -113,7 +113,7 @@ class Life_Client_Core {
         class copLoadout {};
         class copMarkers {};
         class copSearch {};
-        class copSiren {};
+      //  class copSiren {};
         class doorAnimate {};
         class fedCamDisplay {};
        // class licenseCheck {};
