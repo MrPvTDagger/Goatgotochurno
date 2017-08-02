@@ -27,7 +27,6 @@ player  linkItem "ItemCompass";
 player  linkItem "tf_microdagr";
 player  linkItem "tf_anprc152_19";
 player  linkItem "ItemGPS";
-player  linkItem "ACE_NVG_Gen4";
 
 player  setSpeaker "ace_novoice";
 

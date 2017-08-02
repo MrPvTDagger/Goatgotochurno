@@ -47,6 +47,8 @@ class CarShops {
             { "rhsusf_M1232_usarmy_wd", "" },
             { "rhsusf_M1232_M2_usarmy_wd", "" },
             { "rhsusf_M1232_MK19_usarmy_wd", "" },
+            { "RHS_M2A3_BUSKIII", "" },
+            { "RHS_M2A3_BUSKIII_wd", "" },
             { "B_APC_Tracked_01_AA_F", "" },
             { "O_APC_Tracked_02_AA_F", "" }
 
@@ -463,6 +465,22 @@ class LifeCfgVehicles {
         vItemSpace = 1;
         conditions = "";
         price = 1250000;
+        textures[] = {};
+
+		};
+												
+		class RHS_M2A3_BUSKIII {
+        vItemSpace = 1;
+        conditions = "";
+        price = 3000000;
+        textures[] = {};
+
+		};
+												
+		class RHS_M2A3_BUSKIII_wd {
+        vItemSpace = 1;
+        conditions = "";
+        price = 3000000;
         textures[] = {};
 
 		};

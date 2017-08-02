@@ -212,13 +212,13 @@ class CfgSounds
 
     class lockCarSound {
         name = "lockCarSound";
-        sound[] = {"\sounds\carLock.ogg", 0.25, 1};
+        sound[] = {"\sound\carLock.ogg", 0.25, 1};
         titles[] = {};
     };
 
     class unlockCarSound {
         name = "unlockCarSound";
-        sound[] = {"\sounds\carUnlock.ogg", 0.25, 1};
+        sound[] = {"\sound\carUnlock.ogg", 0.25, 1};
         titles[] = {};
     };
 	

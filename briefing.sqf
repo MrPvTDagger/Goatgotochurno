@@ -1,19 +1,6 @@
 waitUntil {!isServer && !isNull player && player isEqualTo player};
 if (player diarySubjectExists "controls") exitWith {};
 
-player createDiarySubject ["changelog","Change Log"];
-player createDiarySubject ["controls","Controls"];
-
-/*  Example
-    player createDiaryRecord ["", //Container
-        [
-            "", //Subsection
-                "
-TEXT HERE<br/><br/>
-                "
-        ]
-    ];
-*/
     player createDiaryRecord ["changelog",
         [
             "G.O.A.T Changelog",

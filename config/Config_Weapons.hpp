@@ -146,6 +146,7 @@ class WeaponShops {
 			{ "SMA_supp2BW_556", "SMA 5.56 GREY", 400, 200, "" },
 			{ "SMA_supp2smaB_556", "SMA 5.56 BLACK Suppressor", 400, 200, "" },
 			{ "SMA_supp2smaT_556", "SMA 5.56 TAN Suppressor", 400, 200, "" },
+			{ "SMA_AAC_762_sdn6", "SMA AAC BLACK Suppressor", 400, 200, "" },
 			{ "sma_gemtech_one_blk", "SMA 7.62 BLACK Suppressor", 400, 200, "" },
 			{ "SMA_supptan_762", "SMA 7.62 TAN Suppressor", 400, 200, "" },
 			{ "SMA_SFPEQ_HKTOP_BLK", "SMA Laser/Light Combo BLACK", 200, 100, "" },
