@@ -33,8 +33,6 @@ class CarShops {
             { "B_APC_Tracked_01_CRV_F", "" },
             { "I_APC_Wheeled_03_cannon_F", "" },
             { "O_APC_Tracked_02_cannon_F", "" },
-			{ "RHS_M2A3_BUSKIII", "" },
-			{ "RHS_M2A3_BUSKIII_wd", "" },
             { "B_MBT_01_TUSK_F", "" },
             { "rhsusf_m1a2sep1tuskiiwd_usarmy", "" },
             { "O_MBT_02_cannon_F", "" },
@@ -279,20 +277,7 @@ class LifeCfgVehicles {
         conditions = "";
         price = 110000;
         textures[] = {};
-	};	
-	class RHS_M2A3_BUSKIII {
-        vItemSpace = 1;
-        conditions = "";
-        price = 3000000;
-        textures[] = {};
-		};
-	class RHS_M2A3_BUSKIII_wd {
-        vItemSpace = 1;
-        conditions = "";
-        price = 3000000;
-        textures[] = {};
-		};
-		
+	};		
 	class B_Truck_01_covered_F {
         vItemSpace = 1;
         conditions = "";
